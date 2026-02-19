@@ -4,7 +4,7 @@
   "subjects": [
     {
       "id": "ba_sub_polity_v1",
-      "title": "Polity Class 1",
+      "title": " Class 1- राजव्यवस्था",
       "iconName": "filter_1",
       "colorHex": "#4CAF50",
       "type": "content",
@@ -12,7 +12,7 @@
     },
     {
       "id": "ba_sub_polity_v2",
-      "title": "Polity Class 2",
+      "title": "Class 2-संवैधानिक विकास",
       "iconName": "filter_2",
       "colorHex": "#2196F3",
       "type": "content",
@@ -20,15 +20,31 @@
     },
     {
       "id": "ba_sub_polity_v3",
-      "title": "Polity Class 3",
+      "title": "Class 3- रेगुलेटिंग एक्ट",
       "iconName": "filter_3",
       "colorHex": "#FF9800",
       "type": "content",
       "contentUrl": "https://exam-chacha.pages.dev/ba_polity_v3.json"
     },
     {
+      "id": "ba_sub_polity_v4",
+      "title": "Class 4 - नागरिकता",
+      "iconName": "filter_4",
+      "colorHex": "#FFC107",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_polity_v4.json"
+    },
+    {
+      "id": "ba_sub_polity_v5",
+      "title": "Class 5 - नागरिकता अधिनियम",
+      "iconName": "filter_5",
+      "colorHex": "#795548",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_polity_v5.json"
+    },
+    {
       "id": "ba_sub_polity_v6",
-      "title": "Polity Class 6",
+      "title": "Class 6-1909 भारतीय परिषद्",
       "iconName": "filter_6",
       "colorHex": "#E91E63",
       "type": "content",
@@ -36,11 +52,43 @@
     },
     {
       "id": "ba_sub_polity_v7",
-      "title": "Polity Class 7 (Practice)",
+      "title": "Class 7-इसाई मिशनरियों का आगमन (Practice)",
       "iconName": "quiz",
       "colorHex": "#9C27B0",
       "type": "content",
       "contentUrl": "https://exam-chacha.pages.dev/ba_polity_v7.json"
+    },
+    {
+      "id": "ba_sub_polity_v8",
+      "title": "Polity Class 8- संविधान सभा की मांग:",
+      "iconName": "filter_8",
+      "colorHex": "#673AB7",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_polity_v8.json"
+    },
+    {
+      "id": "ba_sub_polity_v9",
+      "title": "Class 9 - महत्वपूर्ण प्रश्नोत्तरी",
+      "iconName": "filter_9",
+      "colorHex": "#607D8B",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_polity_v9.json"
+    },
+    {
+      "id": "ba_sub_polity_v10",
+      "title": "Class 10 - मौलिक अधिकार",
+      "iconName": "looks_10",
+      "colorHex": "#00BCD4",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_polity_v10.json"
+    },
+    {
+      "id": "ba_sub_polity_v11",
+      "title": "Class 11 - राज्यों का पुनर्गठन",
+      "iconName": "looks_one",
+      "colorHex": "#8BC34A",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_polity_v11.json"
     }
   ]
 }
