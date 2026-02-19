@@ -15,6 +15,14 @@
       "iconName": "public",
       "colorHex": "#1976D2",
       "contentUrl": "https://exam-chacha.pages.dev/mppsc_geo.json"
+    },
+    {
+      "id": "mppsc_mp_special",
+      "title": "MP Special (म.प्र. विशेष)",
+      "iconName": "location_city",
+      "colorHex": "#4CAF50",
+      "type": "folder",
+      "contentUrl": "https://exam-chacha.pages.dev/mp_special_list.json"
     }
   ]
 }
