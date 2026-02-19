@@ -3,8 +3,8 @@ from pathlib import Path
 from PyPDF2 import PdfReader
 
 # Input PDF (from user's attachment)
-pdf_path = Path(r"C:\Users\pc\Downloads\Polity class - 3.pdf")
-output_json = Path(__file__).resolve().parent.parent / "ba_polity_v3.json"
+pdf_path = Path(r"C:\Users\pc\Downloads\Polity class - 6.pdf")
+output_json = Path(__file__).resolve().parent / "ba_polity_v6.json"
 
 text_blocks = []
 reader = PdfReader(str(pdf_path))
@@ -20,7 +20,6 @@ for page in reader.pages:
 
 # Heuristic: group continuous lines that start with bullet '•' or contain short length into slides
 slides = []
-current = []
 for block in text_blocks:
     if block.startswith('•'):
         # split bullets inside block
@@ -33,11 +32,11 @@ for block in text_blocks:
 
 # Build JSON structure similar to existing files
 subject = {
-    "subjectId": "ba_sub_polity_v3",
-    "subjectTitle": "भारतीय राजव्यवस्था (Class-3)",
+    "subjectId": "ba_sub_polity_v6",
+    "subjectTitle": "भारतीय राजव्यवस्था (Class-6)",
     "topics": [
         {
-            "title": "राजव्यवस्था और संविधान: Class-3",
+            "title": "राजव्यवस्था और संविधान: Class-6",
             "slides": slides,
             "questions": []
         }
