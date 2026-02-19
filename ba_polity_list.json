@@ -33,6 +33,14 @@
       "colorHex": "#E91E63",
       "type": "content",
       "contentUrl": "https://exam-chacha.pages.dev/ba_polity_v6.json"
+    },
+    {
+      "id": "ba_sub_polity_v7",
+      "title": "Polity Class 7 (Practice)",
+      "iconName": "quiz",
+      "colorHex": "#9C27B0",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_polity_v7.json"
     }
   ]
 }
