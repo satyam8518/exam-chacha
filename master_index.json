@@ -1,0 +1,26 @@
+{
+  "appVersion": "1.0",
+  "exams": [
+    {
+      "id": "exam_mppsc",
+      "title": "MPPSC (State Services)",
+      "iconName": "account_balance",
+      "colorHex": "#FF5722",
+      "subjectsUrl": "https://exam-chacha.pages.dev/mppsc_subjects.json"
+    },
+    {
+      "id": "exam_ssc",
+      "title": "SSC CGL 2026",
+      "iconName": "school",
+      "colorHex": "#6200EA",
+      "subjectsUrl": "https://exam-chacha.pages.dev/ssc_subjects.json"
+    },
+    {
+      "id": "exam_ba_arts",
+      "title": "B.A. (Arts) First Year",
+      "iconName": "menu_book",
+      "colorHex": "#009688",
+      "subjectsUrl": "https://exam-chacha.pages.dev/ba_arts_subjects.json"
+    }
+  ]
+}

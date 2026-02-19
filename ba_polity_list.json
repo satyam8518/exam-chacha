@@ -1,0 +1,30 @@
+{
+  "examId": "ba_polity_category",
+  "examTitle": "Polity All Classes",
+  "subjects": [
+    {
+      "id": "ba_sub_polity_v1",
+      "title": "Polity Class 1",
+      "iconName": "filter_1",
+      "colorHex": "#4CAF50",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_polity_v1.json"
+    },
+    {
+      "id": "ba_sub_polity_v2",
+      "title": "Polity Class 2",
+      "iconName": "filter_2",
+      "colorHex": "#2196F3",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_polity_v2.json"
+    },
+    {
+      "id": "ba_sub_polity_v3",
+      "title": "Polity Class 3",
+      "iconName": "filter_3",
+      "colorHex": "#FF9800",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_polity_v3.json"
+    }
+  ]
+}

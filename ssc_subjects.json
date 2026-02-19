@@ -1,0 +1,20 @@
+{
+  "examId": "exam_ssc",
+  "examTitle": "SSC CGL 2026",
+  "subjects": [
+    {
+      "id": "sub_maths",
+      "title": "Mathematics (गणित)",
+      "iconName": "calculate",
+      "colorHex": "#D32F2F",
+      "contentUrl": "https://exam-chacha.pages.dev/ssc_maths.json"
+    },
+    {
+      "id": "sub_reasoning",
+      "title": "Reasoning (तर्कशक्ति)",
+      "iconName": "psychology",
+      "colorHex": "#1976D2",
+      "contentUrl": "https://exam-chacha.pages.dev/ssc_reasoning.json"
+    }
+  ]
+}

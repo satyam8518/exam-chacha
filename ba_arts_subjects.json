@@ -1,0 +1,14 @@
+{
+  "examId": "exam_ba_arts",
+  "examTitle": "B.A. (Arts) First Year",
+  "subjects": [
+    {
+      "id": "ba_polity_category",
+      "title": "Polity Classes (राजव्यवस्था)",
+      "iconName": "gavel",
+      "colorHex": "#4CAF50",
+      "type": "folder", 
+      "contentUrl": "https://exam-chacha.pages.dev/ba_polity_list.json"
+    }
+  ]
+}

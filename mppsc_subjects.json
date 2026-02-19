@@ -1,0 +1,20 @@
+{
+  "examId": "exam_mppsc",
+  "examTitle": "MPPSC Prelims",
+  "subjects": [
+    {
+      "id": "sub_history",
+      "title": "History (इतिहास)",
+      "iconName": "history",
+      "colorHex": "#D32F2F",
+      "contentUrl": "https://exam-chacha.pages.dev/mppsc_history.json"
+    },
+    {
+      "id": "sub_geography",
+      "title": "Geography (भूगोल)",
+      "iconName": "public",
+      "colorHex": "#1976D2",
+      "contentUrl": "https://exam-chacha.pages.dev/mppsc_geo.json"
+    }
+  ]
+}
