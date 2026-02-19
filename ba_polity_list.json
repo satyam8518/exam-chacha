@@ -25,6 +25,14 @@
       "colorHex": "#FF9800",
       "type": "content",
       "contentUrl": "https://exam-chacha.pages.dev/ba_polity_v3.json"
+    },
+    {
+      "id": "ba_sub_polity_v6",
+      "title": "Polity Class 6",
+      "iconName": "filter_6",
+      "colorHex": "#E91E63",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_polity_v6.json"
     }
   ]
 }
