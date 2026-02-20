@@ -1,0 +1,61 @@
+{
+  "subjectId": "sub_mp_special_v19",
+  "subjectTitle": "MP Special - Class 19 (Census 2011 - Part 2)",
+  "topics": [
+    {
+      "title": "Linganupat (Sex Ratio)",
+      "slides": [
+        "[cite_start]\"• **Paribhasha:** Prati hazaar purushon par striyon ki sankhya ko linganupat kehte hain[cite: 3037, 3038].\"",
+        "[cite_start]\"• **MP ka Linganupat:** Madhya Pradesh ka vartaman linganupat **931** hai[cite: 3011, 3039].\"",
+        "[cite_start]\"• **Vishesh Tathya:** **Rewa** ek matra aisa zila hai jiska linganupat rajya ke ausat (931) ke barabar hai[cite: 3040].\"",
+        "[cite_start]\"• **Sarvadhik Linganupat:** **Balaghat** (1021) mein sabse adhik linganupat hai, iske baad Alirajpur (1011) aur Mandla (1008) hain[cite: 3044].\"",
+        "[cite_start]\"• **Nyuntam Linganupat:** Sabse kam linganupat **Bhind** (837) ka hai, phir Morena (840) aur Gwalior (864) aate hain[cite: 3048].\""
+      ],
+      "questions": [
+        { "questionText": "Linganupat ki ikai (Unit) kya maani jaati hai?", "options": ["Prati 100 purush", "Prati 1000 purush", "Prati 10000 purush", "Prati 500 purush"], "correctAnswer": "Prati 1000 purush" },
+        { "questionText": "Madhya Pradesh ka ausat linganupat kitna hai?", "options": ["912", "943", "931", "933"], "correctAnswer": "931" },
+        { "questionText": "MP ka kaun sa zila rajya ke ausat linganupat ke barabar hai?", "options": ["Indore", "Rewa", "Sagar", "Bhopal"], "correctAnswer": "Rewa" },
+        { "questionText": "Sarvadhik linganupat wala zila kaun sa hai?", "options": ["Mandla", "Alirajpur", "Balaghat", "Jhabua"], "correctAnswer": "Balaghat" },
+        { "questionText": "Balaghat ka linganupat kitna hai?", "options": ["1011", "1021", "1008", "990"], "correctAnswer": "1021" },
+        { "questionText": "Madhya Pradesh mein nyuntam linganupat kis zile ka hai?", "options": ["Bhind", "Morena", "Gwalior", "Datia"], "correctAnswer": "Bhind" },
+        { "questionText": "Bhind zile ka linganupat kitna darj kiya gaya hai?", "options": ["837", "840", "864", "910"], "correctAnswer": "837" },
+        { "questionText": "Nyuntam linganupat mein Bhind ke baad dusra sthan kiska hai?", "options": ["Gwalior", "Shivpuri", "Morena", "Sheopur"], "correctAnswer": "Morena" }
+      ]
+    },
+    {
+      "title": "Jansankhya Ghanatva (Density) aur Saksharta",
+      "slides": [
+        "[cite_start]\"• **Jan-ghanatva Paribhasha:** Prati varg kilometer kshetra mein rehne wale vyaktiyon ki sankhya[cite: 3053].\"",
+        "[cite_start]\"• **Sarvadhik Ghanatva:** Sabse zyada jan-ghanatva **Bhopal** (855) mein hai, iske baad Indore (841) aur Jabalpur (473) ka sthan hai[cite: 3057].\"",
+        "[cite_start]\"• **Nyuntam Ghanatva:** Sabse kam jan-ghanatva **Dindori** (94) mein hai, phir Sheopur (104) aur Panna (142)[cite: 3062].\"",
+        "[cite_start]\"• **Saksharta Dar:** MP ki saksharta dar **69.32%** hai (Bharat ki 73%)[cite: 3011].\""
+      ],
+      "questions": [
+        { "questionText": "Madhya Pradesh ka jansankhya ghanatva kitna hai?", "options": ["236", "382", "473", "855"], "correctAnswer": "236" },
+        { "questionText": "Sarvadhik jansankhya ghanatva wala zila kaun sa hai?", "options": ["Indore", "Jabalpur", "Bhopal", "Gwalior"], "correctAnswer": "Bhopal" },
+        { "questionText": "Bhopal ka jansankhya ghanatva kitna hai?", "options": ["841", "855", "473", "500"], "correctAnswer": "855" },
+        { "questionText": "Nyuntam jansankhya ghanatva kis zile mein paya jata hai?", "options": ["Panna", "Sheopur", "Dindori", "Mandla"], "correctAnswer": "Dindori" },
+        { "questionText": "Dindori ka jansankhya ghanatva kitna hai?", "options": ["94", "104", "142", "236"], "correctAnswer": "94" },
+        { "questionText": "2011 ki jan-ganana ke anusar MP ki saksharta dar kitni hai?", "options": ["73%", "69.32%", "65.5%", "70%"], "correctAnswer": "69.32%" },
+        { "questionText": "Bharat ki saksharta dar 2011 mein kitni rahi?", "options": ["69.32%", "73%", "75%", "80%"], "correctAnswer": "73%" }
+      ]
+    },
+    {
+      "title": "Anusuchit Jati (SC) aur Anusuchit Janjati (ST)",
+      "slides": [
+        "[cite_start]\"• **Paribhasha:** SC ko anuchhed 366(24) aur ST ko anuchhed 366(25) mein paribhashit kiya gaya hai[cite: 3072].\"",
+        "[cite_start]\"• **Sankhya:** MP mein SC ki jansankhya **15.6%** aur ST ki **21.1%** hai[cite: 3072].\"",
+        "[cite_start]\"• **SC Jansankhya:** Sabse zyada SC jansankhya **Indore** mein aur sabse kam **Jhabua** mein hai[cite: 3072].\"",
+        "[cite_start]\"• **ST Jansankhya:** Sabse zyada ST jansankhya **Dhar** mein aur sabse kam **Bhind** mein hai[cite: 3072].\"",
+        "[cite_start]\"• **Manyata Prapt Jatiyan:** MP mein manyata prapt 48 SC aur 46 ST jatiyan hain[cite: 3072].\""
+      ],
+      "questions": [
+        { "questionText": "MP mein Anusuchit Janjati (ST) ki jansankhya ka pratishat kitna hai?", "options": ["15.6%", "21.1%", "25%", "10%"], "correctAnswer": "21.1%" },
+        { "questionText": "Sarvadhik ST jansankhya wala zila kaun sa hai?", "options": ["Indore", "Dhar", "Jhabua", "Alirajpur"], "correctAnswer": "Dhar" },
+        { "questionText": "Nyuntam ST jansankhya wala zila kaun sa hai?", "options": ["Jhabua", "Indore", "Bhind", "Morena"], "correctAnswer": "Bhind" },
+        { "questionText": "Anusuchit Jati (SC) ki sarvadhik jansankhya kis zile mein hai?", "options": ["Indore", "Ujjain", "Dhar", "Bhopal"], "correctAnswer": "Indore" },
+        { "questionText": "SC aur ST ko sanvidhan ke kis anuchhed mein paribhashit kiya gaya hai?", "options": ["Anuchhed 341-342", "Anuchhed 366", "Anuchhed 330", "Anuchhed 17"], "correctAnswer": "Anuchhed 366" }
+      ]
+    }
+  ]
+}
