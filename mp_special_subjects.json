@@ -1,0 +1,13 @@
+{
+  "examId": "exam_mp_special",
+  "examTitle": "MP Special",
+  "subjects": [
+    {
+      "id": "sub_mp_special_v1",
+      "title": "मध्यप्रदेश सामान्य परिचय - Class 1",
+      "iconName": "map",
+      "colorHex": "#FF9800",
+      "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v1.json"
+    }
+  ]
+}

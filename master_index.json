@@ -21,6 +21,13 @@
       "iconName": "menu_book",
       "colorHex": "#009688",
       "subjectsUrl": "https://exam-chacha.pages.dev/ba_arts_subjects.json"
+    },
+    {
+      "id": "exam_mp_special",
+      "title": "MP Special",
+      "iconName": "star",
+      "colorHex": "#FFC107",
+      "subjectsUrl": "https://exam-chacha.pages.dev/mp_special_subjects.json"
     }
   ]
 }
