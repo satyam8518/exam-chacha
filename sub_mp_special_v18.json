@@ -1,0 +1,59 @@
+{
+  "subjectId": "sub_mp_special_v18",
+  "subjectTitle": "MP Special - Class 18 (Census 2011 - Part 1)",
+  "topics": [
+    {
+      "title": "Jan-ganana: Itihas aur Prishthbhumi",
+      "slides": [
+        "[cite_start]\"• **Prachin Itihas:** Bharat mein jan-ganana (Census) karne ke sabse prachin saakshya Chanakya ki pustak **'Arthashastra'** mein milte hain[cite: 2996].\"",
+        "[cite_start]\"• **Adhunik Shuruat:** Adhunik pranali ke roop mein pehli baar jan-ganana **1872** mein **Lord Mayo** ke shasan kaal mein hui thi[cite: 2997].\"",
+        "[cite_start]\"• **Vidhiwat Jan-ganana:** Bharat mein vidhiwat (regular) jan-ganana **1881** mein **Lord Ripon** ke kaal mein shuru hui, jo tab se har 10 varsh mein hoti hai[cite: 2998, 2999].\"",
+        "[cite_start]\"• **Vishesh Diwas:** Prati varsh **11 July** ko 'Vishwa Jansankhya Niyantran Diwas' manaya jata hai[cite: 3000].\"",
+        "[cite_start]\"• **Madhya Pradesh ki Sthiti:** Varsh 2011 ki jan-ganana, Madhya Pradesh ke gathan (1956) ke baad ki **6th** jan-ganana hai[cite: 3005]. [cite_start]Rajya mein pehli jan-ganana **1961** mein hui thi[cite: 3006].\""
+      ],
+      "questions": [
+        { "questionText": "Jan-ganana ke saakshya kis prachin pustak mein milte hain?", "options": ["Indica", "Arthashastra", "Rajatarangini", "Abhigyan Shakuntalam"], "correctAnswer": "Arthashastra" },
+        { "questionText": "Bharat mein pehli adhunik jan-ganana kab hui thi?", "options": ["1872", "1881", "1901", "1951"], "correctAnswer": "1872" },
+        { "questionText": "Vidhiwat jan-ganana ki shuruat kis ke karyakaal mein hui?", "options": ["Lord Mayo", "Lord Curzon", "Lord Ripon", "Lord Dalhousie"], "correctAnswer": "Lord Ripon" },
+        { "questionText": "Vishwa Jansankhya Niyantran Diwas kab manaya jata hai?", "options": ["11 June", "11 July", "1 July", "11 August"], "correctAnswer": "11 July" },
+        { "questionText": "1956 ke baad varsh 2011 ki jan-ganana MP ki kaun si jan-ganana hai?", "options": ["Paanchvi", "Chhatvi", "Saatvi", "Aathvi"], "correctAnswer": "Chhatvi" },
+        { "questionText": "Lord Mayo ke samay pehli jan-ganana kis varsh hui?", "options": ["1862", "1872", "1882", "1892"], "correctAnswer": "1872" },
+        { "questionText": "Lord Ripon ne vidhiwat jan-ganana kis varsh shuru karwayi?", "options": ["1880", "1881", "1885", "1891"], "correctAnswer": "1881" },
+        { "questionText": "Madhya Pradesh mein pehli jan-ganana kis varsh hui thi?", "options": ["1956", "1961", "1951", "1971"], "correctAnswer": "1961" }
+      ]
+    },
+    {
+      "title": "MP Jansankhya aur Tulna (2011)",
+      "slides": [
+        "[cite_start]\"• **Kul Jansankhya:** 2011 ke anusar MP ki jansankhya **7.26 crore** hai, jabki Bharat ki 121 crore[cite: 3011].\"",
+        "[cite_start]\"• **Jansankhya Vriddhi:** MP ki jansankhya vriddhi dar **20.35%** rahi, jo Bharat (17.7%) se adhik hai[cite: 3011].\"",
+        "[cite_start]\"• **Jan-Ghanatva:** MP ka jansankhya ghanatva **236** vyakti prati varg km hai (Bharat ka 382)[cite: 3011, 3054].\"",
+        "[cite_start]\"• **Sarvadhik Jansankhya wale Jile:** MP mein sabse adhik jansankhya **Indore** (32.76 lakh) ki hai, iske baad Jabalpur aur Sagar ka sthan hai[cite: 3016].\"",
+        "[cite_start]\"• **Nyunतम Jansankhya wale Jile:** Vartaman mein sabse kam jansankhya **Pandhurna** (3.74 lakh) ki hai, phir Niwari aur Harda[cite: 3020]. [cite_start]2011 ki jan-ganana ke anusar Harda sabse kam jansankhya wala zila tha[cite: 3021].\""
+      ],
+      "questions": [
+        { "questionText": "2011 ke anusar Madhya Pradesh ki kul jansankhya kitni hai?", "options": ["6.26 Crore", "7.26 Crore", "8.26 Crore", "5.26 Crore"], "correctAnswer": "7.26 Crore" },
+        { "questionText": "Jansankhya vriddhi dar (2001-2011) Madhya Pradesh mein kitni rahi?", "options": ["17.7%", "20.35%", "15.5%", "25.1%"], "correctAnswer": "20.35%" },
+        { "questionText": "Madhya Pradesh ka jansankhya ghanatva kitna hai?", "options": ["236", "382", "336", "282"], "correctAnswer": "236" },
+        { "questionText": "MP mein sarvadhik jansankhya wala zila kaun sa hai?", "options": ["Bhopal", "Jabalpur", "Indore", "Gwalior"], "correctAnswer": "Indore" },
+        { "questionText": "Vartaman mein MP ka sabse kam jansankhya wala zila kaun sa hai?", "options": ["Niwari", "Harda", "Pandhurna", "Datia"], "correctAnswer": "Pandhurna" },
+        { "questionText": "2011 jan-ganana ke anusar sabse kam jansankhya wala zila kaun sa tha?", "options": ["Harda", "Sheopur", "Dindori", "Alirajpur"], "correctAnswer": "Harda" },
+        { "questionText": "Indore ki jansankhya 2011 ke anusar lagbhag kitni thi?", "options": ["25 Lakh", "32.76 Lakh", "40 Lakh", "20 Lakh"], "correctAnswer": "32.76 Lakh" },
+        { "questionText": "Sarvadhik jansankhya mein Indore ke baad dusra sthan kiska hai?", "options": ["Sagar", "Gwalior", "Jabalpur", "Rewa"], "correctAnswer": "Jabalpur" }
+      ]
+    },
+    {
+      "title": "Kshetraphal (Area) ke Anusar Jile",
+      "slides": [
+        "[cite_start]\"• **Sarvadhik Kshetraphal:** Vartaman portal ke anusar **Shivpuri** (10666 sq km) sabse bada zila hai[cite: 3025]. [cite_start]Lekin 2011 ki jan-ganana mein **Chhindwara** sabse bada zila tha[cite: 3026].\"",
+        "[cite_start]\"• **Nyuntam Kshetraphal:** Sabse kam kshetraphal wala zila **Niwari** (1170 sq km) hai, iske baad Datia aur Bhopal aate hain[cite: 3030].\""
+      ],
+      "questions": [
+        { "questionText": "2011 jan-ganana ke anusar kshetraphal mein sabse bada zila kaun sa tha?", "options": ["Shivpuri", "Chhindwara", "Sagar", "Betul"], "correctAnswer": "Chhindwara" },
+        { "questionText": "Vartaman aankdon ke anusar kshetraphal mein sabse bada zila kaun sa hai?", "options": ["Indore", "Chhindwara", "Shivpuri", "Jabalpur"], "correctAnswer": "Shivpuri" },
+        { "questionText": "Madhya Pradesh ka sabse kam kshetraphal wala zila kaun sa hai?", "options": ["Datia", "Bhopal", "Niwari", "Harda"], "correctAnswer": "Niwari" },
+        { "questionText": "Niwari ka kshetraphal kitna hai?", "options": ["2691 sq km", "1170 sq km", "2772 sq km", "1500 sq km"], "correctAnswer": "1170 sq km" }
+      ]
+    }
+  ]
+}

@@ -2,12 +2,30 @@
   "examId": "exam_mp_special",
   "examTitle": "MP Special",
   "subjects": [
-    {
-      "id": "sub_mp_special_v1",
-      "title": "मध्यप्रदेश सामान्य परिचय - Class 1",
-      "iconName": "map",
-      "colorHex": "#FF9800",
-      "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v1.json"
-    }
+    { "id": "sub_mp_special_v1", "title": "Class 1 (सामान्य परिचय)", "iconName": "map", "colorHex": "#FF9800", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v1.json" },
+    { "id": "sub_mp_special_v2", "title": "Class 2 (जनगणना, न्यायपालिका एवं प्रशासन)", "iconName": "book", "colorHex": "#2196F3", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v2.json" },
+    { "id": "sub_mp_special_v3", "title": "Class 3 (मध्यप्रदेश के जिलों का पुनर्गठन)", "iconName": "history", "colorHex": "#4CAF50", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v3.json" },
+    { "id": "sub_mp_special_v4", "title": "Class 4 (म.प्र. के संभाग एवं मुख्यालय)", "iconName": "domain", "colorHex": "#9C27B0", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v4.json" },
+    { "id": "sub_mp_special_v5", "title": "Class 5 (म.प्र. का भौतिक विभाजन - भाग 1)", "iconName": "terrain", "colorHex": "#FF5722", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v5.json" },
+    { "id": "sub_mp_special_v6", "title": "Class 6 (म.प्र. का भौतिक विभाजन - भाग 2)", "iconName": "terrain", "colorHex": "#795548", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v6.json" },
+    { "id": "sub_mp_special_v7", "title": "Class 7 (मध्यप्रदेश की नदियाँ)", "iconName": "waves", "colorHex": "#00BCD4", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v7.json" },
+    { "id": "sub_mp_special_v8", "title": "Class 8 (मध्यप्रदेश के जलप्रपात)", "iconName": "waterfalls", "colorHex": "#03A9F4", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v8.json" },
+    { "id": "sub_mp_special_v9", "title": "Class 9 (म.प्र. के मकबरे व समाधियाँ - 1)", "iconName": "account-balance", "colorHex": "#607D8B", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v9.json" },
+    { "id": "sub_mp_special_v10", "title": "Class 10 (म.प्र. के मकबरे व समाधियाँ - 2)", "iconName": "account-balance", "colorHex": "#455A64", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v10.json" },
+    { "id": "sub_mp_special_v11", "title": "Class 11 (म.प्र. के मेले - 1)", "iconName": "celebrate", "colorHex": "#E91E63", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v11.json" },
+    { "id": "sub_mp_special_v12", "title": "Class 12 (म.प्र. के मेले - 2)", "iconName": "festival", "colorHex": "#F44336", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v12.json" },
+    { "id": "sub_mp_special_v13", "title": "Class 13", "iconName": "terrain", "colorHex": "#795548", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v13.json" },
+    { "id": "sub_mp_special_v14", "title": "Class 14 (PYQ Set-1)", "iconName": "castle", "colorHex": "#3F51B5", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v14.json" },
+    { "id": "sub_mp_special_v15", "title": "Class 15 (PYQ Set-2)", "iconName": "map", "colorHex": "#FF9800", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v15.json" },
+    { "id": "sub_mp_special_v16", "title": "Class 16 (PYQ Set-2)", "iconName": "map", "colorHex": "#FFB74D", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v16.json" },
+    { "id": "sub_mp_special_v17", "title": "Class 17 (PYQ Set-4)", "iconName": "history_edu", "colorHex": "#8BC34A", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v17.json" },
+    { "id": "sub_mp_special_v18", "title": "Class 18 (Census 2011 - Part 1)", "iconName": "bar_chart", "colorHex": "#009688", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v18.json" },
+    { "id": "sub_mp_special_v19", "title": "Class 19 (Census 2011 - Part 2)", "iconName": "pie_chart", "colorHex": "#00796B", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v19.json" },
+    { "id": "sub_mp_special_v20", "title": "Class 20 (म.प्र. के किले एवं महल - भाग 1)", "iconName": "fort", "colorHex": "#6D4C41", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v20.json" },
+    { "id": "sub_mp_special_v21", "title": "Class 21 (म.प्र. के किले एवं महल - भाग 2)", "iconName": "fort", "colorHex": "#5D4037", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v21.json" },
+    { "id": "sub_mp_special_v22", "title": "Class 22 (म.प्र. के मंदिर एवं पर्यटन - 1)", "iconName": "temple", "colorHex": "#FF7043", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v22.json" },
+    { "id": "sub_mp_special_v23", "title": "Class 23 (म.प्र. के मंदिर एवं पर्यटन - 2)", "iconName": "temple", "colorHex": "#FF8A65", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v23.json" },
+    { "id": "sub_mp_special_v24", "title": "Class 24 (म.प्र. में प्रथम एवं विविध - भाग 1)", "iconName": "star", "colorHex": "#9E9D24", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v24.json" },
+    { "id": "sub_mp_special_v25", "title": "Class 25 (म.प्र. में प्रथम एवं विविध - भाग 2)", "iconName": "flag", "colorHex": "#3E2723", "contentUrl": "https://exam-chacha.pages.dev/sub_mp_special_v25.json" }
   ]
 }
