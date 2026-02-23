@@ -1,58 +1,37 @@
 {
   "subjectId": "sub_mp_special_v18",
   "subjectTitle": "MP Special - Class 18 (Census 2011 - Part 1)",
+  "quizLang": "hindi",
   "topics": [
     {
-      "title": "Jan-ganana: Itihas aur Prishthbhumi",
+      "title": "म.प्र. जनगणना 2011: इतिहास, जनसंख्या एवं क्षेत्रफल (Class-18)",
       "slides": [
-        "[cite_start]\"• **Prachin Itihas:** Bharat mein jan-ganana (Census) karne ke sabse prachin saakshya Chanakya ki pustak **'Arthashastra'** mein milte hain[cite: 2996].\"",
-        "[cite_start]\"• **Adhunik Shuruat:** Adhunik pranali ke roop mein pehli baar jan-ganana **1872** mein **Lord Mayo** ke shasan kaal mein hui thi[cite: 2997].\"",
-        "[cite_start]\"• **Vidhiwat Jan-ganana:** Bharat mein vidhiwat (regular) jan-ganana **1881** mein **Lord Ripon** ke kaal mein shuru hui, jo tab se har 10 varsh mein hoti hai[cite: 2998, 2999].\"",
-        "[cite_start]\"• **Vishesh Diwas:** Prati varsh **11 July** ko 'Vishwa Jansankhya Niyantran Diwas' manaya jata hai[cite: 3000].\"",
-        "[cite_start]\"• **Madhya Pradesh ki Sthiti:** Varsh 2011 ki jan-ganana, Madhya Pradesh ke gathan (1956) ke baad ki **6th** jan-ganana hai[cite: 3005]. [cite_start]Rajya mein pehli jan-ganana **1961** mein hui thi[cite: 3006].\""
+        "• **जनगणना का इतिहास:** भारत में जनगणना के सबसे प्राचीन साक्ष्य चाणक्य की पुस्तक **'अर्थशास्त्र'** में मिलते हैं। \n• **आधुनिक शुरुआत:** भारत में पहली बार जनगणना **1872** में **लॉर्ड मेयो** के काल में हुई। \n• **विधिवत जनगणना:** नियमित रूप से हर 10 वर्ष में जनगणना की शुरुआत **1881** में **लॉर्ड रिपन** के कार्यकाल में हुई। \n• **विशेष तथ्य:** प्रतिवर्ष **11 जुलाई** को 'विश्व जनसंख्या नियंत्रण दिवस' मनाया जाता है। \n• **मध्यप्रदेश की स्थिति:** राज्य के गठन (1956) के बाद 2011 की जनगणना **6वीं** जनगणना है। मध्यप्रदेश में पहली जनगणना **1961** में हुई थी।",
+        "• **जनसंख्या तुलना (2011):** मध्यप्रदेश की कुल जनसंख्या **7.26 करोड़** है (भारत: 121 करोड़)। \n• **वृद्धि एवं घनत्व:** मध्यप्रदेश की जनसंख्या वृद्धि दर **20.35%** रही, जो राष्ट्रीय औसत (17.7%) से अधिक है। राज्य का जनसंख्या घनत्व **236** व्यक्ति प्रति वर्ग किमी है। \n• **सर्वाधिक जनसंख्या:** मध्यप्रदेश में सबसे अधिक जनसंख्या **इंदौर** (32.76 लाख) की है, इसके बाद जबलपुर और सागर का स्थान आता है। \n• **न्यूनतम जनसंख्या:** वर्तमान आंकड़ों के अनुसार सबसे कम जनसंख्या वाला जिला **पांढुर्णा** (3.74 लाख) है, फिर निवाड़ी का स्थान है। हालांकि, **2011 की जनगणना** के अनुसार **हरदा** सबसे कम जनसंख्या वाला जिला था।",
+        "• **क्षेत्रफल के अनुसार जिले:** \n- **सर्वाधिक क्षेत्रफल:** वर्तमान आधिकारिक पोर्टल के अनुसार **शिवपुरी** (10666 वर्ग किमी) मध्यप्रदेश का सबसे बड़ा जिला है। \n- **नोट:** वर्ष 2011 की जनगणना के समय **छिन्दवाड़ा** क्षेत्रफल में सबसे बड़ा जिला था। \n- **न्यूनतम क्षेत्रफल:** मध्यप्रदेश का सबसे कम क्षेत्रफल वाला जिला **निवाड़ी** (1170 वर्ग किमी) है, इसके बाद दतिया और भोपाल का स्थान आता है।",
+        "\n\n• **निष्कर्ष:** जनगणना के आंकड़े राज्य की प्रशासनिक और आर्थिक योजनाएं बनाने में महत्वपूर्ण भूमिका निभाते हैं। जनसंख्या घनत्व और क्षेत्रफल के आंकड़ों में नए जिलों (जैसे निवाड़ी और पांढुर्णा) के गठन के बाद काफी बदलाव आया है।"
       ],
       "questions": [
-        { "questionText": "Jan-ganana ke saakshya kis prachin pustak mein milte hain?", "options": ["Indica", "Arthashastra", "Rajatarangini", "Abhigyan Shakuntalam"], "correctAnswer": "Arthashastra" },
-        { "questionText": "Bharat mein pehli adhunik jan-ganana kab hui thi?", "options": ["1872", "1881", "1901", "1951"], "correctAnswer": "1872" },
-        { "questionText": "Vidhiwat jan-ganana ki shuruat kis ke karyakaal mein hui?", "options": ["Lord Mayo", "Lord Curzon", "Lord Ripon", "Lord Dalhousie"], "correctAnswer": "Lord Ripon" },
-        { "questionText": "Vishwa Jansankhya Niyantran Diwas kab manaya jata hai?", "options": ["11 June", "11 July", "1 July", "11 August"], "correctAnswer": "11 July" },
-        { "questionText": "1956 ke baad varsh 2011 ki jan-ganana MP ki kaun si jan-ganana hai?", "options": ["Paanchvi", "Chhatvi", "Saatvi", "Aathvi"], "correctAnswer": "Chhatvi" },
-        { "questionText": "Lord Mayo ke samay pehli jan-ganana kis varsh hui?", "options": ["1862", "1872", "1882", "1892"], "correctAnswer": "1872" },
-        { "questionText": "Lord Ripon ne vidhiwat jan-ganana kis varsh shuru karwayi?", "options": ["1880", "1881", "1885", "1891"], "correctAnswer": "1881" },
-        { "questionText": "Madhya Pradesh mein pehli jan-ganana kis varsh hui thi?", "options": ["1956", "1961", "1951", "1971"], "correctAnswer": "1961" }
-      ]
-    },
-    {
-      "title": "MP Jansankhya aur Tulna (2011)",
-      "slides": [
-        "[cite_start]\"• **Kul Jansankhya:** 2011 ke anusar MP ki jansankhya **7.26 crore** hai, jabki Bharat ki 121 crore[cite: 3011].\"",
-        "[cite_start]\"• **Jansankhya Vriddhi:** MP ki jansankhya vriddhi dar **20.35%** rahi, jo Bharat (17.7%) se adhik hai[cite: 3011].\"",
-        "[cite_start]\"• **Jan-Ghanatva:** MP ka jansankhya ghanatva **236** vyakti prati varg km hai (Bharat ka 382)[cite: 3011, 3054].\"",
-        "[cite_start]\"• **Sarvadhik Jansankhya wale Jile:** MP mein sabse adhik jansankhya **Indore** (32.76 lakh) ki hai, iske baad Jabalpur aur Sagar ka sthan hai[cite: 3016].\"",
-        "[cite_start]\"• **Nyunतम Jansankhya wale Jile:** Vartaman mein sabse kam jansankhya **Pandhurna** (3.74 lakh) ki hai, phir Niwari aur Harda[cite: 3020]. [cite_start]2011 ki jan-ganana ke anusar Harda sabse kam jansankhya wala zila tha[cite: 3021].\""
-      ],
-      "questions": [
-        { "questionText": "2011 ke anusar Madhya Pradesh ki kul jansankhya kitni hai?", "options": ["6.26 Crore", "7.26 Crore", "8.26 Crore", "5.26 Crore"], "correctAnswer": "7.26 Crore" },
-        { "questionText": "Jansankhya vriddhi dar (2001-2011) Madhya Pradesh mein kitni rahi?", "options": ["17.7%", "20.35%", "15.5%", "25.1%"], "correctAnswer": "20.35%" },
-        { "questionText": "Madhya Pradesh ka jansankhya ghanatva kitna hai?", "options": ["236", "382", "336", "282"], "correctAnswer": "236" },
-        { "questionText": "MP mein sarvadhik jansankhya wala zila kaun sa hai?", "options": ["Bhopal", "Jabalpur", "Indore", "Gwalior"], "correctAnswer": "Indore" },
-        { "questionText": "Vartaman mein MP ka sabse kam jansankhya wala zila kaun sa hai?", "options": ["Niwari", "Harda", "Pandhurna", "Datia"], "correctAnswer": "Pandhurna" },
-        { "questionText": "2011 jan-ganana ke anusar sabse kam jansankhya wala zila kaun sa tha?", "options": ["Harda", "Sheopur", "Dindori", "Alirajpur"], "correctAnswer": "Harda" },
-        { "questionText": "Indore ki jansankhya 2011 ke anusar lagbhag kitni thi?", "options": ["25 Lakh", "32.76 Lakh", "40 Lakh", "20 Lakh"], "correctAnswer": "32.76 Lakh" },
-        { "questionText": "Sarvadhik jansankhya mein Indore ke baad dusra sthan kiska hai?", "options": ["Sagar", "Gwalior", "Jabalpur", "Rewa"], "correctAnswer": "Jabalpur" }
-      ]
-    },
-    {
-      "title": "Kshetraphal (Area) ke Anusar Jile",
-      "slides": [
-        "[cite_start]\"• **Sarvadhik Kshetraphal:** Vartaman portal ke anusar **Shivpuri** (10666 sq km) sabse bada zila hai[cite: 3025]. [cite_start]Lekin 2011 ki jan-ganana mein **Chhindwara** sabse bada zila tha[cite: 3026].\"",
-        "[cite_start]\"• **Nyuntam Kshetraphal:** Sabse kam kshetraphal wala zila **Niwari** (1170 sq km) hai, iske baad Datia aur Bhopal aate hain[cite: 3030].\""
-      ],
-      "questions": [
-        { "questionText": "2011 jan-ganana ke anusar kshetraphal mein sabse bada zila kaun sa tha?", "options": ["Shivpuri", "Chhindwara", "Sagar", "Betul"], "correctAnswer": "Chhindwara" },
-        { "questionText": "Vartaman aankdon ke anusar kshetraphal mein sabse bada zila kaun sa hai?", "options": ["Indore", "Chhindwara", "Shivpuri", "Jabalpur"], "correctAnswer": "Shivpuri" },
-        { "questionText": "Madhya Pradesh ka sabse kam kshetraphal wala zila kaun sa hai?", "options": ["Datia", "Bhopal", "Niwari", "Harda"], "correctAnswer": "Niwari" },
-        { "questionText": "Niwari ka kshetraphal kitna hai?", "options": ["2691 sq km", "1170 sq km", "2772 sq km", "1500 sq km"], "correctAnswer": "1170 sq km" }
+        { "questionText": "जनगणना के साक्ष्य किस प्राचीन पुस्तक में मिलते हैं?", "options": ["इंडिका", "अर्थशास्त्र", "राजतरंगिणी", "अभिज्ञान शाकुंतलम"], "correctAnswer": "अर्थशास्त्र" },
+        { "questionText": "भारत में पहली आधुनिक जनगणना किस वर्ष हुई थी?", "options": ["1872", "1881", "1901", "1951"], "correctAnswer": "1872" },
+        { "questionText": "नियमित (विधिवत) जनगणना की शुरुआत किसके कार्यकाल में हुई?", "options": ["लॉर्ड मेयो", "लॉर्ड कर्जन", "लॉर्ड रिपन", "लॉर्ड डलहौजी"], "correctAnswer": "लॉर्ड रिपन" },
+        { "questionText": "विश्व जनसंख्या नियंत्रण दिवस कब मनाया जाता है?", "options": ["11 जून", "11 जुलाई", "1 जुलाई", "11 अगस्त"], "correctAnswer": "11 जुलाई" },
+        { "questionText": "1956 के गठन के बाद वर्ष 2011 की जनगणना मध्यप्रदेश की कौन सी जनगणना है?", "options": ["पांचवीं", "छठवीं", "सातवीं", "आठवीं"], "correctAnswer": "छठवीं" },
+        { "questionText": "लॉर्ड रिपन ने विधिवत जनगणना किस वर्ष शुरू करवाई थी?", "options": ["1880", "1881", "1885", "1891"], "correctAnswer": "1881" },
+        { "questionText": "मध्यप्रदेश में पहली जनगणना किस वर्ष आयोजित हुई थी?", "options": ["1956", "1961", "1951", "1971"], "correctAnswer": "1961" },
+        { "questionText": "2011 की जनगणना के अनुसार मध्यप्रदेश की कुल जनसंख्या कितनी है?", "options": ["6.26 करोड़", "7.26 करोड़", "8.26 करोड़", "5.26 करोड़"], "correctAnswer": "7.26 करोड़" },
+        { "questionText": "दशकीय जनसंख्या वृद्धि दर (2001-2011) मध्यप्रदेश में कितनी रही?", "options": ["17.7%", "20.35%", "15.5%", "25.1%"], "correctAnswer": "20.35%" },
+        { "questionText": "मध्यप्रदेश का जनसंख्या घनत्व (2011) कितना है?", "options": ["236", "382", "336", "282"], "correctAnswer": "236" },
+        { "questionText": "मध्यप्रदेश में सर्वाधिक जनसंख्या वाला जिला कौन सा है?", "options": ["भोपाल", "जबलपुर", "इंदौर", "ग्वालियर"], "correctAnswer": "इंदौर" },
+        { "questionText": "वर्तमान आंकड़ों के अनुसार मध्यप्रदेश का सबसे कम जनसंख्या वाला जिला कौन सा है?", "options": ["निवाड़ी", "हरदा", "पांढुर्णा", "दतिया"], "correctAnswer": "पांढुर्णा" },
+        { "questionText": "2011 की जनगणना के अनुसार सबसे कम जनसंख्या वाला जिला कौन सा था?", "options": ["हरदा", "श्योपुर", "डिण्डोरी", "अलीराजपुर"], "correctAnswer": "हरदा" },
+        { "questionText": "वर्ष 2011 के अनुसार इंदौर की जनसंख्या लगभग कितनी थी?", "options": ["25 लाख", "32.76 लाख", "40 लाख", "20 लाख"], "correctAnswer": "32.76 लाख" },
+        { "questionText": "सर्वाधिक जनसंख्या में इंदौर के बाद दूसरा स्थान किस जिले का है?", "options": ["सागर", "ग्वालियर", "जबलपुर", "रीवा"], "correctAnswer": "जबलपुर" },
+        { "questionText": "2011 की जनगणना के अनुसार क्षेत्रफल में मध्यप्रदेश का सबसे बड़ा जिला कौन सा था?", "options": ["शिवपुरी", "छिन्दवाड़ा", "सागर", "बैतूल"], "correctAnswer": "छिन्दवाड़ा" },
+        { "questionText": "वर्तमान आंकड़ों (पोर्टल) के अनुसार क्षेत्रफल में मध्यप्रदेश का सबसे बड़ा जिला कौन सा है?", "options": ["इंदौर", "छिन्दवाड़ा", "शिवपुरी", "जबलपुर"], "correctAnswer": "शिवपुरी" },
+        { "questionText": "मध्यप्रदेश का सबसे कम क्षेत्रफल वाला जिला कौन सा है?", "options": ["दतिया", "भोपाल", "निवाड़ी", "हरदा"], "correctAnswer": "निवाड़ी" },
+        { "questionText": "निवाड़ी जिले का कुल क्षेत्रफल लगभग कितना है?", "options": ["2691 वर्ग किमी", "1170 वर्ग किमी", "2772 वर्ग किमी", "1500 वर्ग किमी"], "correctAnswer": "1170 वर्ग किमी" },
+        { "questionText": "जनगणना 2011 के अनुसार भारत का जनसंख्या घनत्व कितना था?", "options": ["236", "336", "382", "482"], "correctAnswer": "382" }
       ]
     }
   ]
