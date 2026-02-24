@@ -7,8 +7,16 @@
       "title": "Polity Classes (राजव्यवस्था)",
       "iconName": "gavel",
       "colorHex": "#4CAF50",
-      "type": "folder", 
+      "type": "folder",
       "contentUrl": "https://exam-chacha.pages.dev/ba_polity_list.json"
+    },
+    {
+      "id": "ba_eco_thought_category",
+      "title": "आर्थिक विचार (Economic Thought)",
+      "iconName": "trending_up",
+      "colorHex": "#2196F3",
+      "type": "folder",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_eco_thought_list.json"
     }
   ]
 }
