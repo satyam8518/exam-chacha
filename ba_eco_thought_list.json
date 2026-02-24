@@ -1,0 +1,23 @@
+[
+  {
+    "subjectId": "ba_eco_thought_v1",
+    "subjectTitle": "आर्थिक विचार - Class 1 (वृहस्पति, शुक्र एवं कामंदक)",
+    "iconName": "menu_book",
+    "colorHex": "#2196F3",
+    "contentUrl": "https://exam-chacha.pages.dev/ba_eco_thought_v1.json"
+  },
+  {
+    "subjectId": "ba_eco_thought_v2",
+    "subjectTitle": "आर्थिक विचार - Class 2 (कौटिल्य के आर्थिक विचार)",
+    "iconName": "history_edu",
+    "colorHex": "#4CAF50",
+    "contentUrl": "https://exam-chacha.pages.dev/ba_eco_thought_v2.json"
+  },
+  {
+    "subjectId": "ba_eco_thought_v3",
+    "subjectTitle": "आर्थिक विचार - Class 3 (प्राचीन आर्थिक संस्थाएँ एवं मुद्रा)",
+    "iconName": "payments",
+    "colorHex": "#FF9800",
+    "contentUrl": "https://exam-chacha.pages.dev/ba_eco_thought_v3.json"
+  }
+]
