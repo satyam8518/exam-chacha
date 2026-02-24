@@ -1,23 +1,30 @@
-[
-  {
-    "subjectId": "ba_eco_thought_v1",
-    "subjectTitle": "आर्थिक विचार - Class 1 (वृहस्पति, शुक्र एवं कामंदक)",
-    "iconName": "menu_book",
-    "colorHex": "#2196F3",
-    "contentUrl": "https://exam-chacha.pages.dev/ba_eco_thought_v1.json"
-  },
-  {
-    "subjectId": "ba_eco_thought_v2",
-    "subjectTitle": "आर्थिक विचार - Class 2 (कौटिल्य के आर्थिक विचार)",
-    "iconName": "history_edu",
-    "colorHex": "#4CAF50",
-    "contentUrl": "https://exam-chacha.pages.dev/ba_eco_thought_v2.json"
-  },
-  {
-    "subjectId": "ba_eco_thought_v3",
-    "subjectTitle": "आर्थिक विचार - Class 3 (प्राचीन आर्थिक संस्थाएँ एवं मुद्रा)",
-    "iconName": "payments",
-    "colorHex": "#FF9800",
-    "contentUrl": "https://exam-chacha.pages.dev/ba_eco_thought_v3.json"
-  }
-]
+{
+  "examId": "ba_eco_thought_category",
+  "examTitle": "Economic Thought All Classes",
+  "subjects": [
+    {
+      "id": "ba_sub_eco_thought_v1",
+      "title": "Class 1 - वृहस्पति, शुक्र एवं कामंदक",
+      "iconName": "filter_1",
+      "colorHex": "#2196F3",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_eco_thought_v1.json"
+    },
+    {
+      "id": "ba_sub_eco_thought_v2",
+      "title": "Class 2 - कौटिल्य के आर्थिक विचार",
+      "iconName": "filter_2",
+      "colorHex": "#4CAF50",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_eco_thought_v2.json"
+    },
+    {
+      "id": "ba_sub_eco_thought_v3",
+      "title": "Class 3 - प्राचीन आर्थिक संस्थाएँ एवं मुद्रा",
+      "iconName": "filter_3",
+      "colorHex": "#FF9800",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_eco_thought_v3.json"
+    }
+  ]
+}
