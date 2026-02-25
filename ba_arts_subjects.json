@@ -3,6 +3,14 @@
   "examTitle": "B.A. (Arts) First Year",
   "subjects": [
     {
+      "id": "ba_constitution_category",
+      "title": "Indian Constitution (भारत का संविधान)",
+      "iconName": "menu_book",
+      "colorHex": "#E91E63",
+      "type": "folder",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_constitution_full_course.json"
+    },
+    {
       "id": "ba_polity_category",
       "title": "Polity Classes (राजव्यवस्था)",
       "iconName": "gavel",
