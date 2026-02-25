@@ -1,0 +1,166 @@
+{
+  "examId": "ba_constitution_full_course",
+  "examTitle": "भारत का संविधान - सम्पूर्ण पाठ्यक्रम",
+  "subjects": [
+    {
+      "id": "ba_constitution_v1",
+      "title": "Class 1 - भारत का संवैधानिक विकास",
+      "iconName": "filter_1",
+      "colorHex": "#E91E63",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_constitution_v1.json"
+    },
+    {
+      "id": "ba_constitution_v2",
+      "title": "Class 2 - संविधान निर्माण",
+      "iconName": "filter_2",
+      "colorHex": "#9C27B0",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_constitution_v2.json"
+    },
+    {
+      "id": "ba_constitution_v3",
+      "title": "Class 3 - संविधान की प्रस्तावना एवं विशेषताएँ",
+      "iconName": "filter_3",
+      "colorHex": "#673AB7",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_constitution_v3.json"
+    },
+    {
+      "id": "ba_constitution_v4",
+      "title": "Class 4 - स्रोत, भाग, अनुच्छेद एवं अनुसूचियाँ",
+      "iconName": "filter_4",
+      "colorHex": "#3F51B5",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_constitution_v4.json"
+    },
+    {
+      "id": "ba_constitution_v5",
+      "title": "Class 5 - संघ एवं उसका राज्य क्षेत्र",
+      "iconName": "filter_5",
+      "colorHex": "#2196F3",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_constitution_v5.json"
+    },
+    {
+      "id": "ba_constitution_v6",
+      "title": "Class 6 - नागरिकता (Citizenship)",
+      "iconName": "filter_6",
+      "colorHex": "#03A9F4",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_constitution_v6.json"
+    },
+    {
+      "id": "ba_constitution_v7",
+      "title": "Class 7 - मौलिक अधिकार (Fundamental Rights)",
+      "iconName": "filter_7",
+      "colorHex": "#00BCD4",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_constitution_v7.json"
+    },
+    {
+      "id": "ba_constitution_v8",
+      "title": "Class 8 - राज्य के नीति निदेशक तत्व (DPSP)",
+      "iconName": "filter_8",
+      "colorHex": "#009688",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_constitution_v8.json"
+    },
+    {
+      "id": "ba_constitution_v9",
+      "title": "Class 9 - मौलिक कर्तव्य (Fundamental Duties)",
+      "iconName": "filter_9",
+      "colorHex": "#4CAF50",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_constitution_v9.json"
+    },
+    {
+      "id": "ba_constitution_v10",
+      "title": "Class 10 - राष्ट्रपति (The President)",
+      "iconName": "filter_9_plus",
+      "colorHex": "#8BC34A",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_constitution_v10.json"
+    },
+    {
+      "id": "ba_constitution_v11",
+      "title": "Class 11 - प्रधानमंत्री व केन्द्रीय मंत्रिपरिषद्",
+      "iconName": "stars",
+      "colorHex": "#CDDC39",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_constitution_v11.json"
+    },
+    {
+      "id": "ba_constitution_v12",
+      "title": "Class 12 - भारतीय संसद (The Parliament)",
+      "iconName": "account_balance",
+      "colorHex": "#FFEB3B",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_constitution_v12.json"
+    },
+    {
+      "id": "ba_constitution_v13",
+      "title": "Class 13 - राज्य कार्यपालिका (Governor & CM)",
+      "iconName": "gavel",
+      "colorHex": "#FFC107",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_constitution_v13.json"
+    },
+    {
+      "id": "ba_constitution_v14",
+      "title": "Class 14 - राज्य विधानमंडल (Legislature)",
+      "iconName": "layers",
+      "colorHex": "#FF9800",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_constitution_v14.json"
+    },
+    {
+      "id": "ba_constitution_v15",
+      "title": "Class 15 - सर्वोच्च न्यायालय (Supreme Court)",
+      "iconName": "balance",
+      "colorHex": "#FF5722",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_constitution_v15.json"
+    },
+    {
+      "id": "ba_constitution_v16",
+      "title": "Class 16 - उच्च एवं अधीनस्थ न्यायालय",
+      "iconName": "account_balance_wallet",
+      "colorHex": "#795548",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_constitution_v16.json"
+    },
+    {
+      "id": "ba_constitution_v17",
+      "title": "Class 17 - केंद्र-राज्य संबंध",
+      "iconName": "compare_arrows",
+      "colorHex": "#607D8B",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_constitution_v17.json"
+    },
+    {
+      "id": "ba_constitution_v18",
+      "title": "Class 18 - निर्वाचन व लोक सेवा आयोग",
+      "iconName": "how_to_vote",
+      "colorHex": "#333333",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_constitution_v18.json"
+    },
+    {
+      "id": "ba_constitution_v19",
+      "title": "Class 19 - आपात उपबंध (Emergency)",
+      "iconName": "notification_important",
+      "colorHex": "#D32F2F",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_constitution_v19.json"
+    },
+    {
+      "id": "ba_constitution_v20",
+      "title": "Class 20 - संविधान संशोधन (Amendments)",
+      "iconName": "edit",
+      "colorHex": "#1976D2",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/ba_constitution_v20.json"
+    }
+  ]
+}
