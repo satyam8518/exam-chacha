@@ -1,29 +1,29 @@
 {
-  "screenId": "onboarding_exam_chacha",
-  "version": "1.0",
+  "screenId": "onboarding_exam_chacha_premium",
+  "version": "1.1",
   "slides": [
     {
       "slideNumber": 1,
       "title": "Exam Chacha में आपका स्वागत है! 🎓",
       "subtitle": "सरकारी नौकरी की पक्की तैयारी",
-      "description": "मध्यप्रदेश और केंद्र की सभी प्रतियोगी परीक्षाओं की तैयारी अब एक ही जगह पर। बेहतरीन नोट्स और प्रैक्टिस सेट के साथ अपनी मंज़िल हासिल करें।",
-      "imageUrl": "https://api.dicebear.com/7.x/illustrations/png?seed=education&backgroundColor=1E1E2C",
-      "accentColor": "#2196F3"
+      "description": "मध्यप्रदेश और केंद्र की परीक्षाओं के बेहतरीन नोट्स और प्रैक्टिस सेट।",
+      "imageUrl": "Illustrative scene of a determined student surrounded by floating icons of competitive exam symbols, books of 'BA Polity', a compass, and a diploma, in a premium, circular vector art style on a dark background. Dominant colors are deep navy blue with rich gold accents.",
+      "accentColor": "#FFD700"
     },
     {
       "slideNumber": 2,
       "title": "क्विज़ खेलें और रैंक बनाएं 🏆",
       "subtitle": "रियल-टाइम लीडरबोर्ड",
-      "description": "हज़ारों छात्रों के साथ मुक़ाबला करें। सही जवाब दें, स्कोर बढ़ाएं और लीडरबोर्ड पर अपनी टॉप रैंक चेक करें।",
-      "imageUrl": "https://api.dicebear.com/7.x/illustrations/png?seed=trophy&backgroundColor=1E1E2C",
+      "description": "हज़ारों छात्रों के साथ मुक़ाबला करें और टॉप रैंक हासिल करें।",
+      "imageUrl": "Illustrative scene of a student celebrating on top of a tiered pedestal, with a real-time leaderboard showing 'Top Rank' (e.g., Rank 1, 2, 3) and tiny profile avatars. A glowing golden trophy. Energetic yet professional style. Mostly dark blue with a striking gold accent.",
       "accentColor": "#FFD700"
     },
     {
       "slideNumber": 3,
       "title": "स्मार्ट सर्च और डीप नॉलेज 🔍",
       "subtitle": "सेकंडों में पाएं हर जवाब",
-      "description": "किसी भी विषय, क्लास या सवाल को पलक झपकते ही सर्च करें। चलिए, आपके सपनों की उड़ान शुरू करते हैं!",
-      "imageUrl": "https://api.dicebear.com/7.x/illustrations/png?seed=search&backgroundColor=1E1E2C",
+      "description": "किसी भी विषय, क्लास या सवाल को पलक झपकते ही सर्च करें।",
+      "imageUrl": "Illustrative scene of a student using a glowing magnifying glass that hovers over a stack of stylized books and data streams, with a lightbulb of 'innovation' and 'clarity'. SLEEK, professional, and composed composition on a circular base. Dark navy background with a calming green accent.",
       "accentColor": "#4CAF50"
     }
   ],
