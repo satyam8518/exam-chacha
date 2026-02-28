@@ -1,0 +1,246 @@
+{
+  "subjectId": "algebra_part_1",
+  "subjectTitle": "Algebra - Part 1",
+  "topics": [
+    {
+      "title": "TYPE - 1: x + 1/x = k, find x² + 1/x²",
+      "slides": [
+        "• If x + 1/x = k, then x² + 1/x² = k² - 2"
+      ],
+      "questions": [
+        {
+          "questionText": "If x + 1/x = 18 then x² + 1/x² = ?",
+          "options": [
+            "34",
+            "322",
+            "727",
+            "330"
+          ],
+          "correctAnswer": "322"
+        },
+        {
+          "questionText": "If p⁴⁰ + 1/p⁴⁰ = 15 then p⁸⁰ + 1/p⁸⁰ = ?",
+          "options": [
+            "250",
+            "526",
+            "223",
+            "322"
+          ],
+          "correctAnswer": "223"
+        },
+        {
+          "questionText": "If y⁰.²⁵ + 1/y⁰.²⁵ = 23 then y⁰.⁵ + 1/y⁰.⁵ = ?",
+          "options": [
+            "223",
+            "34",
+            "98",
+            "527"
+          ],
+          "correctAnswer": "527"
+        },
+        {
+          "questionText": "If √x + 1/√x = 27 then x + 1/x = ?",
+          "options": [
+            "527",
+            "727",
+            "655",
+            "322"
+          ],
+          "correctAnswer": "727"
+        }
+      ]
+    },
+    {
+      "title": "TYPE - 2: x - 1/x = k, find x² + 1/x²",
+      "slides": [
+        "• If x - 1/x = k, then x² + 1/x² = k² + 2"
+      ],
+      "questions": [
+        {
+          "questionText": "If x - 1/x = 31 then x² + 1/x² = ?",
+          "options": [
+            "123",
+            "963",
+            "54",
+            "321"
+          ],
+          "correctAnswer": "963"
+        },
+        {
+          "questionText": "If x - 1/x = √2 then x⁴ + 1/x⁴ = ?",
+          "options": [
+            "14",
+            "56",
+            "123",
+            "627"
+          ],
+          "correctAnswer": "14"
+        },
+        {
+          "questionText": "If x²⁵ - 1/x²⁵ = -1 then x²⁰⁰ + 1/x²⁰⁰ = ?",
+          "options": [
+            "555",
+            "56",
+            "47",
+            "527"
+          ],
+          "correctAnswer": "47"
+        },
+        {
+          "questionText": "If x⁸ - 1/x⁸ = √3 then x⁶⁴ + 1/x⁶⁴ = ?",
+          "options": [
+            "14",
+            "56",
+            "123",
+            "527"
+          ],
+          "correctAnswer": "527"
+        }
+      ]
+    },
+    {
+      "title": "TYPE - 3: x² + 1/x² = m, find x + 1/x",
+      "slides": [
+        "• If x² + 1/x² = m, then x + 1/x = √(m + 2)"
+      ],
+      "questions": [
+        {
+          "questionText": "If x² + 1/x² = 119 then x + 1/x = ?",
+          "options": [
+            "4",
+            "56",
+            "11",
+            "88"
+          ],
+          "correctAnswer": "11"
+        },
+        {
+          "questionText": "If x¹⁰⁰ + 1/x¹⁰⁰ = 47 then x²⁵ + 1/x²⁵ = ?",
+          "options": [
+            "3",
+            "5",
+            "11",
+            "23"
+          ],
+          "correctAnswer": "3"
+        },
+        {
+          "questionText": "If x²⁵ + 1/x²⁵ = 194 then x⁶.²⁵ + 1/x⁶.²⁵ = ?",
+          "options": [
+            "9",
+            "6",
+            "23",
+            "4"
+          ],
+          "correctAnswer": "4"
+        },
+        {
+          "questionText": "If x¹/² + 1/x¹/² = 527 then x¹/¹⁶ + 1/x¹/¹⁶ = ?",
+          "options": [
+            "4",
+            "√7",
+            "11",
+            "√23"
+          ],
+          "correctAnswer": "√7"
+        }
+      ]
+    },
+    {
+      "title": "TYPE - 4: x² + 1/x² = m, find x - 1/x",
+      "slides": [
+        "• If x² + 1/x² = m, then x - 1/x = √(m - 2)"
+      ],
+      "questions": [
+        {
+          "questionText": "If x⁴ + 1/x⁴ = 171 then x² - 1/x² = ?",
+          "options": [
+            "13",
+            "56",
+            "21",
+            "43"
+          ],
+          "correctAnswer": "13"
+        },
+        {
+          "questionText": "If x⁴ + 1/x⁴ = 322 then x - 1/x = ?",
+          "options": [
+            "7",
+            "56",
+            "4",
+            "43"
+          ],
+          "correctAnswer": "4"
+        },
+        {
+          "questionText": "If x² + 1/x² = 727 then √x - 1/√x = ?",
+          "options": [
+            "13",
+            "25",
+            "2",
+            "5"
+          ],
+          "correctAnswer": "5"
+        },
+        {
+          "questionText": "If x⁸⁰ + 1/x⁸⁰ = 1154 then x¹⁰ - 1/x¹⁰ = ?",
+          "options": [
+            "1",
+            "2",
+            "26",
+            "33"
+          ],
+          "correctAnswer": "2"
+        }
+      ]
+    },
+    {
+      "title": "TYPE - 5: x + 1/x = k, find x - 1/x",
+      "slides": [
+        "• If x + 1/x = k, then x - 1/x = ±√(k² - 4)"
+      ],
+      "questions": [
+        {
+          "questionText": "If x + 1/x = √53 then x - 1/x = ?",
+          "options": [
+            "7",
+            "6",
+            "5",
+            "8"
+          ],
+          "correctAnswer": "7"
+        },
+        {
+          "questionText": "If x¹⁰ + 1/x¹⁰ = 10 then x¹⁰ - 1/x¹⁰ = ?",
+          "options": [
+            "3√3",
+            "4",
+            "4√6",
+            "5"
+          ],
+          "correctAnswer": "4√6"
+        },
+        {
+          "questionText": "If x⁷ + 1/x⁷ = 4 then x¹⁴ - 1/x¹⁴ = ?",
+          "options": [
+            "3√3",
+            "4",
+            "8√3",
+            "6"
+          ],
+          "correctAnswer": "8√3"
+        },
+        {
+          "questionText": "If √x + 1/√x = √7 then x² - 1/x² = ?",
+          "options": [
+            "3",
+            "4√21",
+            "4√6",
+            "5√21"
+          ],
+          "correctAnswer": "5√21"
+        }
+      ]
+    }
+  ]
+}

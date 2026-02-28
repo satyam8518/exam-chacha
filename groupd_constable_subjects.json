@@ -1,0 +1,14 @@
+{
+  "examId": "exam_groupd_constable",
+  "examTitle": "Group-D and MP Constable",
+  "subjects": [
+    {
+      "id": "groupd_algebra_category",
+      "title": "बीजगणित (Algebra Classes)",
+      "iconName": "calculate",
+      "colorHex": "#673AB7",
+      "type": "folder",
+      "contentUrl": "https://exam-chacha.pages.dev/algebra_list.json"
+    }
+  ]
+}

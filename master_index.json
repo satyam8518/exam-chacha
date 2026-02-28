@@ -1,5 +1,5 @@
 {
-  "appVersion": "1.0",
+  "appVersion": "1.1",
   "exams": [
     {
       "id": "exam_mppsc",
@@ -28,6 +28,13 @@
       "iconName": "star",
       "colorHex": "#FFC107",
       "subjectsUrl": "https://exam-chacha.pages.dev/mp_special_subjects.json"
+    },
+    {
+      "id": "exam_groupd_constable",
+      "title": "Group-D and MP Constable",
+      "iconName": "directions_run",
+      "colorHex": "#3F51B5",
+      "subjectsUrl": "https://exam-chacha.pages.dev/groupd_constable_subjects.json"
     }
   ]
 }

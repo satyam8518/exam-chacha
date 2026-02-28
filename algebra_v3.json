@@ -1,0 +1,260 @@
+{
+  "subjectId": "algebra_part_3",
+  "subjectTitle": "Algebra - Part 3",
+  "topics": [
+    {
+      "title": "TYPE - 11: If x = a ± b√c, find x ± 1/x",
+      "slides": [
+        "• If x = a + b√c, calculate 1/x = 1/(a + b√c) by rationalizing.\n• If a² - (b√c)² = 1, then 1/x = a - b√c."
+      ],
+      "questions": [
+        {
+          "questionText": "If x = 5 + 2√6 then x + 1/x = ? or x - 1/x = ?",
+          "options": [
+            "10, 4√6",
+            "14, 6√6",
+            "10, 14",
+            "6, 6"
+          ],
+          "correctAnswer": "10, 4√6"
+        },
+        {
+          "questionText": "If x = 7 - 4√3 then x + 1/x = ? or x - 1/x = ?",
+          "options": [
+            "6, 2√6",
+            "14, -8√3",
+            "10, 14",
+            "6, -6√3"
+          ],
+          "correctAnswer": "14, -8√3"
+        },
+        {
+          "questionText": "If x = 9 + 4√5 then x + 1/x = ? or x - 1/x = ?",
+          "options": [
+            "6, 2√5",
+            "12, -8√3",
+            "18, 8√5",
+            "6, -6√3"
+          ],
+          "correctAnswer": "18, 8√5"
+        },
+        {
+          "questionText": "If x = 5√2 + 7 then x + 1/x = ? or x - 1/x = ?",
+          "options": [
+            "10√3, 6",
+            "10√2, 5",
+            "4√2, 6",
+            "4, 8"
+          ],
+          "correctAnswer": "10√2, 5"
+        }
+      ]
+    },
+    {
+      "title": "TYPE - 12: If x + 1/x = 2",
+      "slides": [
+        "• If x + 1/x = 2, then x must be 1.",
+        "• This applies to 'a + 1/a = 2' for any variable 'a'."
+      ],
+      "questions": [
+        {
+          "questionText": "If x + 1/x = 2 then xⁿ + 1/xⁿ = ?",
+          "options": [
+            "3",
+            "5",
+            "2",
+            "1"
+          ],
+          "correctAnswer": "2"
+        },
+        {
+          "questionText": "If x + 1/x = 2 then 7x⁸ + 5x⁶ + 3x⁴ + x² + 1 = ?",
+          "options": [
+            "14",
+            "12",
+            "15",
+            "17"
+          ],
+          "correctAnswer": "17"
+        },
+        {
+          "questionText": "If cos x + sec x = 2 then cos³ x + sec³ x = ?",
+          "options": [
+            "2",
+            "0",
+            "1",
+            "3"
+          ],
+          "correctAnswer": "2"
+        }
+      ]
+    },
+    {
+      "title": "TYPE - 13: If x + 1/x = √3",
+      "slides": [
+        "• If x + 1/x = √3, then x³ + 1/x³ = 0.",
+        "• This implies x⁶ = -1. Use this for higher powers."
+      ],
+      "questions": [
+        {
+          "questionText": "If x + 1/x = √3 then x⁵¹ + 1/x⁵¹ = ?",
+          "options": [
+            "2",
+            "0",
+            "1",
+            "3"
+          ],
+          "correctAnswer": "0"
+        },
+        {
+          "questionText": "If x + 1/x = √3 then x⁶² + 1/x⁶² = ?",
+          "options": [
+            "2",
+            "1",
+            "3",
+            "0"
+          ],
+          "correctAnswer": "1"
+        },
+        {
+          "questionText": "If x + 1/x = √3 then x¹¹⁰ + x¹⁰⁸ + x¹⁰⁶ + x¹⁰² + x¹⁰⁰ = ?",
+          "options": [
+            "2",
+            "1",
+            "3",
+            "0"
+          ],
+          "correctAnswer": "0"
+        },
+        {
+          "questionText": "If x + 1/x = √3 then x⁵⁰ + x⁴⁵ + x⁴⁴ + x⁴² + x³⁹ = ?",
+          "options": [
+            "-2",
+            "-1",
+            "3",
+            "0"
+          ],
+          "correctAnswer": "-1"
+        }
+      ]
+    },
+    {
+      "title": "TYPE - 14: If x + 1/x = -2",
+      "slides": [
+        "• If x + 1/x = -2, then x must be -1."
+      ],
+      "questions": [
+        {
+          "questionText": "If x + 1/x = -2 then xⁿ + 1/xⁿ⁻¹ = ?",
+          "options": [
+            "-3",
+            "-1",
+            "-2",
+            "0"
+          ],
+          "correctAnswer": "0"
+        },
+        {
+          "questionText": "If x + 1/x = -2 then x⁴ + 1/x⁶ = ?",
+          "options": [
+            "-1",
+            "-3",
+            "-2",
+            "0"
+          ],
+          "correctAnswer": "0"
+        },
+        {
+          "questionText": "If sinθ + cosecθ = -2 Find sinⁿ θ + cosec²ⁿ θ = ? If n is odd?",
+          "options": [
+            "-3",
+            "-1",
+            "-2",
+            "0"
+          ],
+          "correctAnswer": "0"
+        }
+      ]
+    },
+    {
+      "title": "TYPE - 15: x + 1/x = k, find x⁵ + 1/x⁵",
+      "slides": [
+        "• If x + 1/x = k, then x⁵ + 1/x⁵ = (x² + 1/x²)(x³ + 1/x³) - (x + 1/x).",
+        "• x² + 1/x² = k² - 2",
+        "• x³ + 1/x³ = k³ - 3k"
+      ],
+      "questions": [
+        {
+          "questionText": "If x + 1/x = 3 then x⁵ + 1/x⁵ = ?",
+          "options": [
+            "178",
+            "123",
+            "134",
+            "125"
+          ],
+          "correctAnswer": "123"
+        },
+        {
+          "questionText": "If x + 1/x = √5 then x⁵ + 1/x⁵ = ?",
+          "options": [
+            "6√2",
+            "5",
+            "4",
+            "5√5"
+          ],
+          "correctAnswer": "5√5"
+        },
+        {
+          "questionText": "If x¹⁰ + 1/x¹⁰ = 2√3 then x⁵⁰ + 1/x⁵⁰ = ?",
+          "options": [
+            "178√3",
+            "121√2",
+            "176",
+            "156√3"
+          ],
+          "correctAnswer": "178√3"
+        },
+        {
+          "questionText": "If x⁵ + 1/x⁵ = 2525 then x + 1/x = ?",
+          "options": [
+            "2",
+            "5",
+            "6",
+            "8"
+          ],
+          "correctAnswer": "5"
+        }
+      ]
+    },
+    {
+      "title": "TYPE - 16: x - 1/x = k, find x⁵ - 1/x⁵",
+      "slides": [
+        "• If x - 1/x = k, then x⁵ - 1/x⁵ = (x² + 1/x²)(x³ - 1/x³) - (x - 1/x).",
+        "• x² + 1/x² = k² + 2",
+        "• x³ - 1/x³ = k³ + 3k"
+      ],
+      "questions": [
+        {
+          "questionText": "If x - 1/x = 4 then x⁵ - 1/x⁵ = ?",
+          "options": [
+            "1465",
+            "1284",
+            "1364",
+            "1352"
+          ],
+          "correctAnswer": "1364"
+        },
+        {
+          "questionText": "If x - 1/x = 7 then x⁵ - 1/x⁵ = ?",
+          "options": [
+            "17558",
+            "18557",
+            "18225",
+            "16582"
+          ],
+          "correctAnswer": "18557"
+        }
+      ]
+    }
+  ]
+}

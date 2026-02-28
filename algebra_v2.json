@@ -1,0 +1,246 @@
+{
+  "subjectId": "algebra_part_2",
+  "subjectTitle": "Algebra - Part 2",
+  "topics": [
+    {
+      "title": "TYPE - 6: x - 1/x = k, find x + 1/x",
+      "slides": [
+        "• If x - 1/x = k, then x + 1/x = ±√(k² + 4)"
+      ],
+      "questions": [
+        {
+          "questionText": "If x - 1/x = 3√5 then x + 1/x = ?",
+          "options": [
+            "7",
+            "2√17",
+            "4√6",
+            "5√21"
+          ],
+          "correctAnswer": "7"
+        },
+        {
+          "questionText": "If x⁶⁰ - 1/x⁶⁰ = 8 then x⁶⁰ + 1/x⁶⁰ = ?",
+          "options": [
+            "2",
+            "2√17",
+            "4",
+            "5√21"
+          ],
+          "correctAnswer": "2√17"
+        },
+        {
+          "questionText": "If x¹/²⁰ - 1/x¹/²⁰ = 8√5 then x¹/²⁰ + 1/x¹/²⁰ = ?",
+          "options": [
+            "15",
+            "20",
+            "18",
+            "16"
+          ],
+          "correctAnswer": "18"
+        }
+      ]
+    },
+    {
+      "title": "TYPE - 7: x + 1/x = P, find x³ + 1/x³",
+      "slides": [
+        "• If x + 1/x = P, then x³ + 1/x³ = P³ - 3P"
+      ],
+      "questions": [
+        {
+          "questionText": "If x + 1/x = 4 then x³ + 1/x³ = ?",
+          "options": [
+            "50",
+            "52",
+            "61",
+            "53"
+          ],
+          "correctAnswer": "52"
+        },
+        {
+          "questionText": "If x + 1/x = 12 then x³ + 1/x³ = ?",
+          "options": [
+            "1588",
+            "1592",
+            "1600",
+            "1692"
+          ],
+          "correctAnswer": "1692"
+        },
+        {
+          "questionText": "If x + 1/x = 13 then x³ + 1/x³ = ?",
+          "options": [
+            "2145",
+            "2201",
+            "2158",
+            "2100"
+          ],
+          "correctAnswer": "2158"
+        },
+        {
+          "questionText": "If x + 1/x = 10 then x³ + 1/x³ = ?",
+          "options": [
+            "970",
+            "870",
+            "976",
+            "912"
+          ],
+          "correctAnswer": "970"
+        }
+      ]
+    },
+    {
+      "title": "TYPE - 8: x - 1/x = P, find x³ - 1/x³",
+      "slides": [
+        "• If x - 1/x = P, then x³ - 1/x³ = P³ + 3P"
+      ],
+      "questions": [
+        {
+          "questionText": "If x - 1/x = 15 then x³ - 1/x³ = ?",
+          "options": [
+            "3420",
+            "2135",
+            "3140",
+            "3142"
+          ],
+          "correctAnswer": "3420"
+        },
+        {
+          "questionText": "If x - 1/x = 6 then x³ - 1/x³ = ?",
+          "options": [
+            "222",
+            "234",
+            "212",
+            "202"
+          ],
+          "correctAnswer": "234"
+        },
+        {
+          "questionText": "If x⁴ + 1/x⁴ = 322 then x³ - 1/x³ = ?",
+          "options": [
+            "70",
+            "76",
+            "84",
+            "78"
+          ],
+          "correctAnswer": "76"
+        },
+        {
+          "questionText": "If x - 1/x = 5 then x³ + 1/x³ = ?",
+          "options": [
+            "23√2",
+            "25",
+            "25√29",
+            "26√29"
+          ],
+          "correctAnswer": "26√29"
+        }
+      ]
+    },
+    {
+      "title": "TYPE - 9: x + 1/x = 1 (or x² - x + 1 = 0)",
+      "slides": [
+        "• If x + 1/x = 1, then x² - x + 1 = 0.\n• Also, x³ = -1. Use this for higher powers."
+      ],
+      "questions": [
+        {
+          "questionText": "If x + 1/x = 1 then x¹⁰ + 1/x¹⁰ = ?",
+          "options": [
+            "1",
+            "-1",
+            "-2",
+            "-3"
+          ],
+          "correctAnswer": "-1"
+        },
+        {
+          "questionText": "If x² - x + 1 = 0 then x⁶² + 1/x⁶² = ?",
+          "options": [
+            "-4",
+            "-1",
+            "-2",
+            "-3"
+          ],
+          "correctAnswer": "-1"
+        },
+        {
+          "questionText": "If x² - x + 1 = 0 then x³⁷ + 1/x³⁷ = ?",
+          "options": [
+            "-4",
+            "1",
+            "2",
+            "-3"
+          ],
+          "correctAnswer": "1"
+        },
+        {
+          "questionText": "If m/3 + 3/m = 1 then m³ = ?",
+          "options": [
+            "23",
+            "-1",
+            "-27",
+            "-25"
+          ],
+          "correctAnswer": "-27"
+        }
+      ]
+    },
+    {
+      "title": "TYPE - 10: x + 1/x = -1 (or x² + x + 1 = 0)",
+      "slides": [
+        "• If x + 1/x = -1, then x² + x + 1 = 0.\n• Also, x³ = 1. Use this for higher powers."
+      ],
+      "questions": [
+        {
+          "questionText": "If x + 1/x = -1 then x³⁷ + 1/x³⁷ = ?",
+          "options": [
+            "-5",
+            "-1",
+            "-2",
+            "-3"
+          ],
+          "correctAnswer": "-1"
+        },
+        {
+          "questionText": "If x² + x + 1 = 0 then x⁷⁴ + 1/x⁷⁴ = ?",
+          "options": [
+            "1",
+            "-1",
+            "-2",
+            "-3"
+          ],
+          "correctAnswer": "-1"
+        },
+        {
+          "questionText": "If a + 1/a = -1 then [1 – a + a²].[1 + a − a²] = ?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "2"
+          ],
+          "correctAnswer": "4"
+        },
+        {
+          "questionText": "If k/5 + 5/k = 1 then k³ = ?",
+          "options": [
+            "121",
+            "115",
+            "-125",
+            "-120"
+          ],
+          "correctAnswer": "-125"
+        },
+        {
+          "questionText": "If x² - x + 1 = 0 then x²⁹⁰ + x²⁸⁸ + x²⁸⁷ + x²⁸⁵ = ?",
+          "options": [
+            "1",
+            "-1",
+            "0",
+            "3"
+          ],
+          "correctAnswer": "0"
+        }
+      ]
+    }
+  ]
+}
