@@ -1,0 +1,38 @@
+{
+  "examId": "groupd_algebra_full_course",
+  "examTitle": "Algebra (बीजगणित) - सम्पूर्ण क्लासेस",
+  "subjects": [
+    {
+      "id": "algebra_v1",
+      "title": "Algebra - Class 1 (Basic Concepts)",
+      "iconName": "filter_1",
+      "colorHex": "#2196F3",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/algebra_v1.json"
+    },
+    {
+      "id": "algebra_v2",
+      "title": "Algebra - Class 2 (Equations)",
+      "iconName": "filter_2",
+      "colorHex": "#4CAF50",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/algebra_v2.json"
+    },
+    {
+      "id": "algebra_v3",
+      "title": "Algebra - Class 3 (Polynomials)",
+      "iconName": "filter_3",
+      "colorHex": "#FF9800",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/algebra_v3.json"
+    },
+    {
+      "id": "algebra_v4",
+      "title": "Algebra - Class 4 (Advance Practice)",
+      "iconName": "filter_4",
+      "colorHex": "#E91E63",
+      "type": "content",
+      "contentUrl": "https://exam-chacha.pages.dev/algebra_v4.json"
+    }
+  ]
+}
