@@ -1,223 +1,35 @@
 {
-  "subjectId": "algebra_part_4",
-  "subjectTitle": "Algebra - Part 4",
+  "subjectId": "algebra_v4",
+  "subjectTitle": "Algebra - Class 4 (Advanced Identities & Substitution)",
   "topics": [
     {
-      "title": "TYPE - 17: If xy = 1",
+      "title": "बीजगणित: उन्नत सर्वसमिकाएँ और चर प्रतिस्थापन (Class-4)",
       "slides": [
-        "• If x.y = 1, then y = 1/x.",
-        "• Expression 1/(x^(n+1)) + 1/(y^(n+1)) simplifies to 1."
+        "• **व्युत्क्रम संबंध (If xy = 1):** यदि $x \\cdot y = 1$ हो (यानी $y = 1/x$), तो एक बहुत ही महत्वपूर्ण परिणाम याद रखें: \n**$\\frac{1}{x^n+1} + \\frac{1}{y^n+1} = 1$** हमेशा सत्य होता है। यह जटिल दिखने वाले प्रश्नों को सेकंडों में हल कर देता है।",
+        "• **चर प्रतिस्थापन (Variable Transformation):** जब प्रश्न सीधे फ़ॉर्मूले पर न हो, तो हम 'Substitution' का उपयोग करते हैं। \n- उदाहरण: यदि $x + \\frac{1}{x+8} = 0$ है, तो $x+8$ को $y$ मानकर हल करना आसान हो जाता है। \n- बस दोनों पक्षों में वह संख्या जोड़ें या घटाएं जो हर (Denominator) में दी गई है।",
+        "\n• **तीन चरों वाली सर्वसमिकाएँ:** \n1. $a^3 + b^3 + c^3 - 3abc = (a+b+c)(a^2+b^2+c^2 - ab-bc-ca)$ \n2. यदि $a+b+c = 0$ हो, तो **$a^3 + b^3 + c^3 = 3abc$** होता है। \n3. $ab(a+b) + bc(b+c) + ca(c+a) + 3abc = (a+b+c)(ab+bc+ca)$"
       ],
       "questions": [
-        {
-          "questionText": "If x.y = 1 then 1/(x³+1) + 1/(y³+1) = ?",
-          "options": [
-            "2",
-            "1",
-            "0",
-            "3"
-          ],
-          "correctAnswer": "1"
-        },
-        {
-          "questionText": "If x = (√60-√40)/(√70+√50) and y = (√60+√40)/(√70-√50) then 1/(x²+1) + 1/(y²+1) = ?",
-          "options": [
-            "2",
-            "4",
-            "0",
-            "1"
-          ],
-          "correctAnswer": "1"
-        },
-        {
-          "questionText": "If x = 7 - 4√3 and y = 7 + 4√3 then 1/(x³+1) + 1/(y³+1) = ?",
-          "options": [
-            "2",
-            "0",
-            "1",
-            "3"
-          ],
-          "correctAnswer": "1"
-        },
-        {
-          "questionText": "If x = (√3 + √2)⁻³ and y = (√3 - √2)⁻³ then 1/(x²+1) + 1/(y²+1) = ?",
-          "options": [
-            "2",
-            "1",
-            "0",
-            "3"
-          ],
-          "correctAnswer": "1"
-        }
-      ]
-    },
-    {
-      "title": "TYPE - 18: Variable Transformation",
-      "slides": [
-        "• For complex expressions, use substitution to simplify terms (e.g., let y = x+k).",
-        "• Solve for the substituted variable (e.g., y) and then express the target expression in terms of y."
-      ],
-      "questions": [
-        {
-          "questionText": "If x + 1/(x+8) = 0 then x - 1/(x+8) = ?",
-          "options": [
-            "2√15 - 8",
-            "4√6 - 7",
-            "2√13 + 8",
-            "√13 + 17"
-          ],
-          "correctAnswer": "2√15 - 8"
-        },
-        {
-          "questionText": "If (x+2) - 1/(x+4) = 6 then (x+14) + 1/(x+14) = ?",
-          "options": [
-            "2√82",
-            "4√6",
-            "2√13 + 8",
-            "√2 + 17"
-          ],
-          "correctAnswer": "2√82"
-        },
-        {
-          "questionText": "If p - 1/(p-17) = 20 then p + 1/(p-17) = ?",
-          "options": [
-            "2√15 - 8",
-            "4√6 - 7",
-            "2√13 + 8",
-            "√13 + 17"
-          ],
-          "correctAnswer": "√13 + 17"
-        },
-        {
-          "questionText": "If 12x + 1/(3x) = 15 then 4x² + 1/(324x²) = ?",
-          "options": [
-            "25/3",
-            "36/7",
-            "23/9",
-            "12/7"
-          ],
-          "correctAnswer": "25/3"
-        },
-        {
-          "questionText": "If d² + 1/d² = 18 or d > 1 then d³ + 1/d³ = ?",
-          "options": [
-            "91",
-            "64",
-            "76",
-            "81"
-          ],
-          "correctAnswer": "76"
-        },
-        {
-          "questionText": "16x² - 8x + 1 = 0 then 16x² + 1/(4x²) = ?",
-          "options": [
-            "4",
-            "6",
-            "5",
-            "7"
-          ],
-          "correctAnswer": "5"
-        },
-        {
-          "questionText": "If x + 1/x = 4 then (4x²+4) / (9x²+10x+9) = ?",
-          "options": [
-            "1",
-            "8/23",
-            "4/9",
-            "8/22"
-          ],
-          "correctAnswer": "8/23"
-        },
-        {
-          "questionText": "If x⁴ + 1/x⁴ = 194 then x³ + 1/x³ = ?",
-          "options": [
-            "56",
-            "52",
-            "54",
-            "62"
-          ],
-          "correctAnswer": "52"
-        },
-        {
-          "questionText": "If x²y² + 1/(x²y²) = 83 then xy - 1/(xy) = ?",
-          "options": [
-            "10",
-            "9",
-            "85",
-            "81"
-          ],
-          "correctAnswer": "9"
-        },
-        {
-          "questionText": "If x⁴ + 1/x⁴ = 322 or x > 1 then x - 1/x = ?",
-          "options": [
-            "6",
-            "5",
-            "4",
-            "3"
-          ],
-          "correctAnswer": "4"
-        },
-        {
-          "questionText": "If (a²-1)/a = 5 then (a⁶-1)/a³ = ?",
-          "options": [
-            "120",
-            "140",
-            "125",
-            "130"
-          ],
-          "correctAnswer": "140"
-        },
-        {
-          "questionText": "If a/b + b/a = 1 then a³ + b³ = ?",
-          "options": [
-            "-1",
-            "2",
-            "0",
-            "1"
-          ],
-          "correctAnswer": "0"
-        },
-        {
-          "questionText": "If a + b + c = 13; 2(ab + bc + ca) = 10 Find ab (a+b) + bc(b+c) + ca (c+a) + 3abc = ?",
-          "options": [
-            "65",
-            "70",
-            "130",
-            "100"
-          ],
-          "correctAnswer": "65"
-        },
-        {
-          "questionText": "If a + b + c = 7 and ab + bc + ca = 10 Find bc(b+c) + ca (c+a) + ab (a+b) = ?",
-          "options": [
-            "70 - 3abc",
-            "70",
-            "10",
-            "40"
-          ],
-          "correctAnswer": "70 - 3abc"
-        },
-        {
-          "questionText": "If x+y+z = 0 Find (3y²+x²+z²)/(2y²-xz) = ?",
-          "options": [
-            "2",
-            "0",
-            "1",
-            "3"
-          ],
-          "correctAnswer": "2"
-        },
-        {
-          "questionText": "If a/(b+c) + b/(c+a) + c/(a+b) = 1 Find a²/(b+c) + b²/(c+a) + c²/(a+b) = ?",
-          "options": [
-            "0",
-            "1",
-            "2",
-            "3"
-          ],
-          "correctAnswer": "0"
-        }
+        { "questionText": "यदि $x \\cdot y = 1$ है, तो $\\frac{1}{x^3+1} + \\frac{1}{y^3+1}$ का मान क्या होगा?", "options": ["2", "1", "0", "3"], "correctAnswer": "1" },
+        { "questionText": "यदि $x = \\frac{\\sqrt{60}-\\sqrt{40}}{\\sqrt{70}+\\sqrt{50}}$ और $y = \\frac{\\sqrt{60}+\\sqrt{40}}{\\sqrt{70}-\\sqrt{50}}$ है, तो $\\frac{1}{x^2+1} + \\frac{1}{y^2+1}$ क्या होगा?", "options": ["2", "4", "0", "1"], "correctAnswer": "1" },
+        { "questionText": "यदि $x = 7 - 4\\sqrt{3}$ और $y = 7 + 4\\sqrt{3}$ है, तो $\\frac{1}{x^3+1} + \\frac{1}{y^3+1}$ क्या होगा?", "options": ["2", "0", "1", "3"], "correctAnswer": "1" },
+        { "questionText": "यदि $x = (\\sqrt{3} + \\sqrt{2})^{-3}$ और $y = (\\sqrt{3} - \\sqrt{2})^{-3}$ है, तो $\\frac{1}{x^2+1} + \\frac{1}{y^2+1}$ क्या होगा?", "options": ["2", "1", "0", "3"], "correctAnswer": "1" },
+        { "questionText": "यदि $x + \\frac{1}{x+8} = 0$ है, तो $x - \\frac{1}{x+8}$ का मान क्या होगा?", "options": ["2$\\sqrt{15} - 8$", "4$\\sqrt{6} - 7$", "2$\\sqrt{13} + 8$", "$\\sqrt{13} + 17$"], "correctAnswer": "2$\\sqrt{15} - 8$" },
+        { "questionText": "यदि $(x+2) - \\frac{1}{x+4} = 6$ है, तो $(x+14) + \\frac{1}{x+14}$ का मान क्या होगा?", "options": ["2$\\sqrt{82}$", "4$\\sqrt{6}$", "2$\\sqrt{13} + 8$", "$\\sqrt{2} + 17$"], "correctAnswer": "2$\\sqrt{82}$" },
+        { "questionText": "यदि $p - \\frac{1}{p-17} = 20$ है, तो $p + \\frac{1}{p-17}$ का मान क्या होगा?", "options": ["2$\\sqrt{15} - 8$", "4$\\sqrt{6} - 7$", "2$\\sqrt{13} + 8$", "$\\sqrt{13} + 17$"], "correctAnswer": "$\\sqrt{13} + 17$" },
+        { "questionText": "यदि $12x + \\frac{1}{3x} = 15$ है, तो $4x^2 + \\frac{1}{324x^2}$ का मान क्या होगा?", "options": ["25/3", "36/7", "23/9", "12/7"], "correctAnswer": "25/3" },
+        { "questionText": "यदि $d^2 + \\frac{1}{d^2} = 18$ और $d > 1$ है, तो $d^3 + \\frac{1}{d^3}$ का मान क्या होगा?", "options": ["91", "64", "76", "81"], "correctAnswer": "76" },
+        { "questionText": "$16x^2 - 8x + 1 = 0$ है, तो $16x^2 + \\frac{1}{4x^2}$ का मान क्या होगा?", "options": ["4", "6", "5", "7"], "correctAnswer": "5" },
+        { "questionText": "यदि $x + \\frac{1}{x} = 4$ है, तो $\\frac{4x^2+4}{9x^2+10x+9}$ का मान क्या होगा?", "options": ["1", "8/23", "4/9", "8/22"], "correctAnswer": "8/23" },
+        { "questionText": "यदि $x^4 + \\frac{1}{x^4} = 194$ है, तो $x^3 + \\frac{1}{x^3}$ का मान क्या होगा?", "options": ["56", "52", "54", "62"], "correctAnswer": "52" },
+        { "questionText": "यदि $x^2y^2 + \\frac{1}{x^2y^2} = 83$ है, तो $xy - \\frac{1}{xy}$ का मान क्या होगा?", "options": ["10", "9", "85", "81"], "correctAnswer": "9" },
+        { "questionText": "यदि $x^4 + \\frac{1}{x^4} = 322$ और $x > 1$ है, तो $x - \\frac{1}{x}$ का मान क्या होगा?", "options": ["6", "5", "4", "3"], "correctAnswer": "4" },
+        { "questionText": "यदि $(a^2-1)/a = 5$ है, तो $(a^6-1)/a^3$ का मान क्या होगा?", "options": ["120", "140", "125", "130"], "correctAnswer": "140" },
+        { "questionText": "यदि $a/b + b/a = 1$ है, तो $a^3 + b^3$ का मान क्या होगा?", "options": ["-1", "2", "0", "1"], "correctAnswer": "0" },
+        { "questionText": "यदि $a + b + c = 13$ और $2(ab + bc + ca) = 10$ हो, तो $ab(a+b) + bc(b+c) + ca(c+a) + 3abc$ क्या होगा?", "options": ["65", "70", "130", "100"], "correctAnswer": "65" },
+        { "questionText": "यदि $a + b + c = 7$ और $ab + bc + ca = 10$ हो, तो $bc(b+c) + ca(c+a) + ab(a+b)$ का मान क्या होगा?", "options": ["70 - 3abc", "70", "10", "40"], "correctAnswer": "70 - 3abc" },
+        { "questionText": "यदि $x+y+z = 0$ है, तो $(3y^2+x^2+z^2)/(2y^2-xz)$ का मान क्या होगा?", "options": ["2", "0", "1", "3"], "correctAnswer": "2" },
+        { "questionText": "यदि $\\frac{a}{b+c} + \\frac{b}{c+a} + \\frac{c}{a+b} = 1$ है, तो $\\frac{a^2}{b+c} + \\frac{b^2}{c+a} + \\frac{c^2}{a+b}$ का मान क्या होगा?", "options": ["0", "1", "2", "3"], "correctAnswer": "0" }
       ]
     }
   ]

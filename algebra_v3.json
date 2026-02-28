@@ -1,259 +1,36 @@
 {
-  "subjectId": "algebra_part_3",
-  "subjectTitle": "Algebra - Part 3",
+  "subjectId": "algebra_v3",
+  "subjectTitle": "Algebra - Class 3 (Irrational Values & Higher Powers)",
   "topics": [
     {
-      "title": "TYPE - 11: If x = a ± b√c, find x ± 1/x",
+      "title": "बीजगणित: अपरिमेय संख्याएँ और उच्च घातांक (Class-3)",
       "slides": [
-        "• If x = a + b√c, calculate 1/x = 1/(a + b√c) by rationalizing.\n• If a² - (b√c)² = 1, then 1/x = a - b√c."
+        "• **अपरिमेय संख्या (x = a ± b√c):** यदि $x = a + b\\sqrt{c}$ हो और $a^2 - (b\\sqrt{c})^2 = 1$ हो, तो इसका व्युत्क्रम (Rationalization) बहुत सरल होता है। \n1. **$1/x = a - b\\sqrt{c}$** (सिर्फ साइन बदल जाता है)।\n2. **$x + 1/x = 2 \\times$ (बड़ी संख्या)** और **$x - 1/x = 2 \\times$ (छोटी संख्या)**।",
+        "• **विशेष स्थिति - 1 (x + 1/x = 2):** \n- यदि $x + 1/x = 2$ है, तो इसका मतलब है कि **$x = 1$**। \n- अब $x$ की कितनी भी पावर हो ($x^n$), उत्तर हमेशा '1' ही रहेगा। यह नियम $cos x + sec x = 2$ जैसे त्रिकोणमितीय पदों पर भी लागू होता है।",
+        "• **विशेष स्थिति - 2 (x + 1/x = √3):** \n- यदि $x + 1/x = \\sqrt{3}$ दिया हो, तो **$x^6 = -1$** या **$x^6 + 1 = 0$** होता है। \n- यदि किन्हीं दो पदों की पावर के बीच **6 का अंतर** हो (जैसे $x^{12} + x^6$), तो उनका योग '0' हो जाएगा।",
+        "• **उच्च घातांक (Power 5):** \n1. $x^5 + \\frac{1}{x^5} = (x^2 + \\frac{1}{x^2})(x^3 + \\frac{1}{x^3}) - (x + \\frac{1}{x})$ \n2. $x^5 - \\frac{1}{x^5} = (x^2 + \\frac{1}{x^2})(x^3 - \\frac{1}{x^3}) - (x - \\frac{1}{x})$ \n"
       ],
       "questions": [
-        {
-          "questionText": "If x = 5 + 2√6 then x + 1/x = ? or x - 1/x = ?",
-          "options": [
-            "10, 4√6",
-            "14, 6√6",
-            "10, 14",
-            "6, 6"
-          ],
-          "correctAnswer": "10, 4√6"
-        },
-        {
-          "questionText": "If x = 7 - 4√3 then x + 1/x = ? or x - 1/x = ?",
-          "options": [
-            "6, 2√6",
-            "14, -8√3",
-            "10, 14",
-            "6, -6√3"
-          ],
-          "correctAnswer": "14, -8√3"
-        },
-        {
-          "questionText": "If x = 9 + 4√5 then x + 1/x = ? or x - 1/x = ?",
-          "options": [
-            "6, 2√5",
-            "12, -8√3",
-            "18, 8√5",
-            "6, -6√3"
-          ],
-          "correctAnswer": "18, 8√5"
-        },
-        {
-          "questionText": "If x = 5√2 + 7 then x + 1/x = ? or x - 1/x = ?",
-          "options": [
-            "10√3, 6",
-            "10√2, 5",
-            "4√2, 6",
-            "4, 8"
-          ],
-          "correctAnswer": "10√2, 5"
-        }
-      ]
-    },
-    {
-      "title": "TYPE - 12: If x + 1/x = 2",
-      "slides": [
-        "• If x + 1/x = 2, then x must be 1.",
-        "• This applies to 'a + 1/a = 2' for any variable 'a'."
-      ],
-      "questions": [
-        {
-          "questionText": "If x + 1/x = 2 then xⁿ + 1/xⁿ = ?",
-          "options": [
-            "3",
-            "5",
-            "2",
-            "1"
-          ],
-          "correctAnswer": "2"
-        },
-        {
-          "questionText": "If x + 1/x = 2 then 7x⁸ + 5x⁶ + 3x⁴ + x² + 1 = ?",
-          "options": [
-            "14",
-            "12",
-            "15",
-            "17"
-          ],
-          "correctAnswer": "17"
-        },
-        {
-          "questionText": "If cos x + sec x = 2 then cos³ x + sec³ x = ?",
-          "options": [
-            "2",
-            "0",
-            "1",
-            "3"
-          ],
-          "correctAnswer": "2"
-        }
-      ]
-    },
-    {
-      "title": "TYPE - 13: If x + 1/x = √3",
-      "slides": [
-        "• If x + 1/x = √3, then x³ + 1/x³ = 0.",
-        "• This implies x⁶ = -1. Use this for higher powers."
-      ],
-      "questions": [
-        {
-          "questionText": "If x + 1/x = √3 then x⁵¹ + 1/x⁵¹ = ?",
-          "options": [
-            "2",
-            "0",
-            "1",
-            "3"
-          ],
-          "correctAnswer": "0"
-        },
-        {
-          "questionText": "If x + 1/x = √3 then x⁶² + 1/x⁶² = ?",
-          "options": [
-            "2",
-            "1",
-            "3",
-            "0"
-          ],
-          "correctAnswer": "1"
-        },
-        {
-          "questionText": "If x + 1/x = √3 then x¹¹⁰ + x¹⁰⁸ + x¹⁰⁶ + x¹⁰² + x¹⁰⁰ = ?",
-          "options": [
-            "2",
-            "1",
-            "3",
-            "0"
-          ],
-          "correctAnswer": "0"
-        },
-        {
-          "questionText": "If x + 1/x = √3 then x⁵⁰ + x⁴⁵ + x⁴⁴ + x⁴² + x³⁹ = ?",
-          "options": [
-            "-2",
-            "-1",
-            "3",
-            "0"
-          ],
-          "correctAnswer": "-1"
-        }
-      ]
-    },
-    {
-      "title": "TYPE - 14: If x + 1/x = -2",
-      "slides": [
-        "• If x + 1/x = -2, then x must be -1."
-      ],
-      "questions": [
-        {
-          "questionText": "If x + 1/x = -2 then xⁿ + 1/xⁿ⁻¹ = ?",
-          "options": [
-            "-3",
-            "-1",
-            "-2",
-            "0"
-          ],
-          "correctAnswer": "0"
-        },
-        {
-          "questionText": "If x + 1/x = -2 then x⁴ + 1/x⁶ = ?",
-          "options": [
-            "-1",
-            "-3",
-            "-2",
-            "0"
-          ],
-          "correctAnswer": "0"
-        },
-        {
-          "questionText": "If sinθ + cosecθ = -2 Find sinⁿ θ + cosec²ⁿ θ = ? If n is odd?",
-          "options": [
-            "-3",
-            "-1",
-            "-2",
-            "0"
-          ],
-          "correctAnswer": "0"
-        }
-      ]
-    },
-    {
-      "title": "TYPE - 15: x + 1/x = k, find x⁵ + 1/x⁵",
-      "slides": [
-        "• If x + 1/x = k, then x⁵ + 1/x⁵ = (x² + 1/x²)(x³ + 1/x³) - (x + 1/x).",
-        "• x² + 1/x² = k² - 2",
-        "• x³ + 1/x³ = k³ - 3k"
-      ],
-      "questions": [
-        {
-          "questionText": "If x + 1/x = 3 then x⁵ + 1/x⁵ = ?",
-          "options": [
-            "178",
-            "123",
-            "134",
-            "125"
-          ],
-          "correctAnswer": "123"
-        },
-        {
-          "questionText": "If x + 1/x = √5 then x⁵ + 1/x⁵ = ?",
-          "options": [
-            "6√2",
-            "5",
-            "4",
-            "5√5"
-          ],
-          "correctAnswer": "5√5"
-        },
-        {
-          "questionText": "If x¹⁰ + 1/x¹⁰ = 2√3 then x⁵⁰ + 1/x⁵⁰ = ?",
-          "options": [
-            "178√3",
-            "121√2",
-            "176",
-            "156√3"
-          ],
-          "correctAnswer": "178√3"
-        },
-        {
-          "questionText": "If x⁵ + 1/x⁵ = 2525 then x + 1/x = ?",
-          "options": [
-            "2",
-            "5",
-            "6",
-            "8"
-          ],
-          "correctAnswer": "5"
-        }
-      ]
-    },
-    {
-      "title": "TYPE - 16: x - 1/x = k, find x⁵ - 1/x⁵",
-      "slides": [
-        "• If x - 1/x = k, then x⁵ - 1/x⁵ = (x² + 1/x²)(x³ - 1/x³) - (x - 1/x).",
-        "• x² + 1/x² = k² + 2",
-        "• x³ - 1/x³ = k³ + 3k"
-      ],
-      "questions": [
-        {
-          "questionText": "If x - 1/x = 4 then x⁵ - 1/x⁵ = ?",
-          "options": [
-            "1465",
-            "1284",
-            "1364",
-            "1352"
-          ],
-          "correctAnswer": "1364"
-        },
-        {
-          "questionText": "If x - 1/x = 7 then x⁵ - 1/x⁵ = ?",
-          "options": [
-            "17558",
-            "18557",
-            "18225",
-            "16582"
-          ],
-          "correctAnswer": "18557"
-        }
+        { "questionText": "यदि $x = 5 + 2\\sqrt{6}$ है, तो $x + 1/x$ और $x - 1/x$ का मान क्या होगा?", "options": ["10, 4$\\sqrt{6}$", "14, 6$\\sqrt{6}$", "10, 14", "6, 6"], "correctAnswer": "10, 4$\\sqrt{6}$" },
+        { "questionText": "यदि $x = 7 - 4\\sqrt{3}$ है, तो $x + 1/x$ और $x - 1/x$ का मान क्या होगा?", "options": ["6, 2$\\sqrt{6}$", "14, -8$\\sqrt{3}$", "10, 14", "6, -6$\\sqrt{3}$"], "correctAnswer": "14, -8$\\sqrt{3}$" },
+        { "questionText": "यदि $x = 9 + 4\\sqrt{5}$ है, तो $x + 1/x$ और $x - 1/x$ का मान क्या होगा?", "options": ["6, 2$\\sqrt{5}$", "12, -8$\\sqrt{3}$", "18, 8$\\sqrt{5}$", "6, -6$\\sqrt{3}$"], "correctAnswer": "18, 8$\\sqrt{5}$" },
+        { "questionText": "यदि $x = 5\\sqrt{2} + 7$ है, तो $x + 1/x$ और $x - 1/x$ का मान क्या होगा?", "options": ["10$\\sqrt{3}$, 6", "10$\\sqrt{2}$, 5", "4$\\sqrt{2}$, 6", "4, 8"], "correctAnswer": "10$\\sqrt{2}$, 5" },
+        { "questionText": "यदि $x + 1/x = 2$ है, तो $x^n + 1/x^n$ का मान क्या होगा?", "options": ["3", "5", "2", "1"], "correctAnswer": "2" },
+        { "questionText": "यदि $x + 1/x = 2$ है, तो $7x^8 + 5x^6 + 3x^4 + x^2 + 1$ का मान क्या होगा?", "options": ["14", "12", "15", "17"], "correctAnswer": "17" },
+        { "questionText": "यदि $cos x + sec x = 2$ है, तो $cos^3 x + sec^3 x$ का मान क्या होगा?", "options": ["2", "0", "1", "3"], "correctAnswer": "2" },
+        { "questionText": "यदि $x + 1/x = \\sqrt{3}$ है, तो $x^{51} + 1/x^{51}$ का मान क्या होगा?", "options": ["2", "0", "1", "3"], "correctAnswer": "0" },
+        { "questionText": "यदि $x + 1/x = \\sqrt{3}$ है, तो $x^{62} + 1/x^{62}$ का मान क्या होगा?", "options": ["2", "1", "3", "0"], "correctAnswer": "1" },
+        { "questionText": "यदि $x + 1/x = \\sqrt{3}$ है, तो $x^{110} + x^{108} + x^{106} + x^{102} + x^{100}$ का मान क्या होगा?", "options": ["2", "1", "3", "0"], "correctAnswer": "0" },
+        { "questionText": "यदि $x + 1/x = \\sqrt{3}$ है, तो $x^{50} + x^{45} + x^{44} + x^{42} + x^{39}$ का मान क्या होगा?", "options": ["-2", "-1", "3", "0"], "correctAnswer": "-1" },
+        { "questionText": "यदि $x + 1/x = -2$ है, तो $x^n + 1/x^{n-1}$ का मान क्या होगा?", "options": ["-3", "-1", "-2", "0"], "correctAnswer": "0" },
+        { "questionText": "यदि $x + 1/x = -2$ है, तो $x^4 + 1/x^6$ का मान क्या होगा?", "options": ["-1", "-3", "-2", "0"], "correctAnswer": "0" },
+        { "questionText": "यदि $sin\\theta + cosec\\theta = -2$ है और $n$ विषम (odd) है, तो $sin^n \\theta + cosec^{2n} \\theta$ का मान क्या होगा?", "options": ["-3", "-1", "-2", "0"], "correctAnswer": "0" },
+        { "questionText": "यदि $x + 1/x = 3$ है, तो $x^5 + 1/x^5$ का मान क्या होगा?", "options": ["178", "123", "134", "125"], "correctAnswer": "123" },
+        { "questionText": "यदि $x + 1/x = \\sqrt{5}$ है, तो $x^5 + 1/x^5$ का मान क्या होगा?", "options": ["6$\\sqrt{2}$", "5", "4", "5$\\sqrt{5}$"], "correctAnswer": "5$\\sqrt{5}$" },
+        { "questionText": "यदि $x^{10} + 1/x^{10} = 2\\sqrt{3}$ है, तो $x^{50} + 1/x^{50}$ का मान क्या होगा?", "options": ["178$\\sqrt{3}$", "121$\\sqrt{2}$", "176", "156$\\sqrt{3}$"], "correctAnswer": "178$\\sqrt{3}$" },
+        { "questionText": "यदि $x^5 + 1/x^5 = 2525$ है, तो $x + 1/x$ का मान क्या होगा?", "options": ["2", "5", "6", "8"], "correctAnswer": "5" },
+        { "questionText": "यदि $x - 1/x = 4$ है, तो $x^5 - 1/x^5$ का मान क्या होगा?", "options": ["1465", "1284", "1364", "1352"], "correctAnswer": "1364" },
+        { "questionText": "यदि $x - 1/x = 7$ है, तो $x^5 - 1/x^5$ का मान क्या होगा?", "options": ["17558", "18557", "18225", "16582"], "correctAnswer": "18557" }
       ]
     }
   ]

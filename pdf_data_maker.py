@@ -32,41 +32,53 @@ except Exception as e:
 
 # 5. AI के लिए सुपर-प्रॉम्प्ट
 prompt = """
-You are the Chief Content Creator for the 'Exam Chacha' competitive exam app.
-I have uploaded a PDF document. It may contain Maths, Algebra, or general text.
-Please read the entire document carefully and convert the educational content into a strict JSON format.
+"You are an expert educational content creator. Your task is to extract data from the provided PDF and format it into a structured JSON for a mobile learning app. 
 
-RULES FOR GENERATION:
-1. MAXIMUM 20 QUESTIONS PER CLASS: A single class JSON must NOT exceed 20 questions.
-2. AUTO-SPLIT LOGIC: If the PDF is large, split the content logically into multiple classes (Part 1, Part 2, etc.).
-3. FORMAT: Output a JSON object containing an array named "classes".
-4. SLIDES: Summarize the concepts into informative 'slides' using bullet points (•) and \\n for new lines.
-5. EXAM FOCUS: Make the MCQs tough and standard for competitive exams (4 options, 1 correct answer).
+FOLLOW THESE STRICT RULES:
 
-REQUIRED JSON OUTPUT STRUCTURE:
+1. STRUCTURE: 
+   - Each JSON must have 'subjectId', 'subjectTitle', and a 'topics' array.
+   - Inside 'topics', divide the content into 'Types' or 'Concepts' (e.g., TYPE-1, TYPE-2).
+
+2. SLIDES (Educational Content):
+   - Don't put everything in one slide. 
+   - Slide 1: Explain the Concept/Formula clearly in Hindi/English mixed (Hinglish).
+   - Slide 2: Show an example or a step-by-step derivation.
+   - Use Markdown for bold text (e.g., **Formula**) and LaTeX for math (e.g., $x^2 + \frac{1}{x^2}$).
+   - Include a placeholder for a diagram if relevant: 
+
+[Image of X]
+.
+
+3. QUESTIONS (Practice):
+   - For every 'Topic/Type', generate at least 4-5 relevant Multiple Choice Questions.
+   - Each question must have: 'questionText', 'options' (array of 4), and 'correctAnswer'.
+   - Ensure the options are plausible and the math is accurate.
+
+4. LANGUAGE:
+   - Use Hindi (Devanagari) for prose and descriptions.
+   - Use English/LaTeX for Mathematical terms and equations.
+
+5. FORMAT:
+   - Output ONLY the raw JSON. No conversational text.
+   - Follow the exact schema provided in the user's 'perfect example'."
+
+REQUIRED JSON OUTPUT STRUCTURE EXAMPLE:
 {
-  "classes": [
+  "subjectId": "ba_constitution_v1",
+  "subjectTitle": "भारत का संविधान - Class 1 (भारत का संवैधानिक विकास)",
+  "topics": [
     {
-      "subjectId": "auto_gen_subject_part_1",
-      "subjectTitle": "Chapter Name - Part 1",
-      "topics": [
-        {
-          "title": "Topic Name",
-          "slides": [
-            "• Point 1\\n• Point 2"
-          ],
-          "questions": [
-            {
-              "questionText": "Question?",
-              "options": ["A", "B", "C", "D"],
-              "correctAnswer": "A"
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+      "title": "भारत का संवैधानिक विकास: कंपनी एवं क्राउन का शासन (Class-1)",
+      "slides": [
+        "• **विकास के चरण:** भारतीय संविधान का ऐतिहासिक विकास दो मुख्य भागों में विभाजित है:\n1. **कंपनी का शासन (1773-1858):** इसमें रेगुलेटिंग एक्ट और चार्टर एक्ट शामिल हैं।\n2. **क्राउन का शासन (1858-1947):** इसमें भारत शासन अधिनियम और परिषद अधिनियम आते हैं।",
+        "• **रेगुलेटिंग एक्ट 1773:** इसके द्वारा बंगाल के गवर्नर को 'गवर्नर जनरल' बना दिया गया (वारेन हेस्टिंग्स पहले गवर्नर जनरल बने)। इसके तहत 1774 में कलकत्ता में सुप्रीम कोर्ट की स्थापना हुई, जिसके प्रथम मुख्य न्यायाधीश सर एलिजा इम्पे थे।",
+        "• **महत्वपूर्ण चार्टर एक्ट:** \n1. **1813 का चार्टर:** शिक्षा के लिए प्रतिवर्ष 1 लाख रुपये का प्रावधान और कंपनी का व्यापारिक एकाधिकार (चाय-चीन छोड़कर) समाप्त हुआ।\n2. **1833 का चार्टर:** बंगाल के गवर्नर जनरल को 'भारत का गवर्नर जनरल' (लॉर्ड विलियम बैण्टिंक) बनाया गया।\n3. **1853 का चार्टर:** विधायी कार्यों को प्रशासनिक कार्यों से अलग किया गया और सिविल सेवा में भारतीयों की भागीदारी शुरू हुई।",
+        "• **ब्रिटिश क्राउन के अधिनियम:** \n1. **1858 का एक्ट:** शासन सीधे ब्रिटिश ताज के अधीन आया और वायसराय (लॉर्ड कैनिंग) पद बना।\n2. **1909 का एक्ट (मार्ले-मिण्टों):** मुस्लिमों के लिए पृथक निर्वाचक मंडल का प्रावधान।\n3. **1935 का एक्ट:** अखिल भारतीय संघ, संघीय न्यायालय और भारतीय रिजर्व बैंक की स्थापना का प्रावधान。"
+      ],
+      "questions": [
+        { "questionText": "कलकत्ता में सुप्रीम कोर्ट की स्थापना किस वर्ष हुई थी?", "options": ["1773", "1774", "1784", "1813"], "correctAnswer": "1774" },
+        { "questionText": "बंगाल के प्रथम गवर्नर जनरल कौन थे?", "options": ["लॉर्ड कैनिंग", "वारेन हेस्टिंग्स", "लॉर्ड कर्जन", "विलियम बैण्टिंक"], "correctAnswer": "वारेन हेस्टिंग्स" },
 """
 
 print(f"🧠 AI आपकी PDF पढ़ रहा है और नोट्स बना रहा है... (बड़ी PDF में 1-2 मिनट लग सकते हैं)")

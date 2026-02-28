@@ -1,245 +1,36 @@
 {
-  "subjectId": "algebra_part_1",
-  "subjectTitle": "Algebra - Part 1",
+  "subjectId": "algebra_v1",
+  "subjectTitle": "Algebra - Class 1 (Square Based Concepts)",
   "topics": [
     {
-      "title": "TYPE - 1: x + 1/x = k, find x² + 1/x²",
+      "title": "बीजगणित: वर्ग आधारित सर्वसमिकाएँ एवं महत्वपूर्ण सूत्र (Class-1)",
       "slides": [
-        "• If x + 1/x = k, then x² + 1/x² = k² - 2"
+        "• **महत्वपूर्ण अवधारणा:** बीजगणित में समीकरणों को हल करने के लिए $(a+b)^2$ और $(a-b)^2$ का ज्ञान अनिवार्य है। \n1. यदि $x + \\frac{1}{x} = k$ है, तो **$x^2 + \\frac{1}{x^2} = k^2 - 2$** होता है।\n2. यदि $x - \\frac{1}{x} = k$ है, तो **$x^2 + \\frac{1}{x^2} = k^2 + 2$** होता है।",
+        "• **पावर 1 से पावर 2 पर जाना:** \n- प्लस से प्लस स्क्वायर जाने पर: $k^2 - 2$ करें। (जैसे $x + \\frac{1}{x} = 3 \\implies x^2 + \\frac{1}{x^2} = 7$)\n- माइनस से प्लस स्क्वायर जाने पर: $k^2 + 2$ करें। (जैसे $x - \\frac{1}{x} = 3 \\implies x^2 + \\frac{1}{x^2} = 11$)",
+        "• **रिवर्स प्रोसेस (Square से Power 1):** \n1. $x + \\frac{1}{x}$ निकालने के लिए: $\\sqrt{k+2}$ करें।\n2. $x - \\frac{1}{x}$ निकालने के लिए: $\\sqrt{k-2}$ करें।",
+        "\n• **पावर का परिवर्तन:** \n- यदि $x + \\frac{1}{x} = k$ दिया है, तो $x - \\frac{1}{x} = \\pm\\sqrt{k^2 - 4}$ होगा।\n- समान पावर में प्लस से माइनस जाने के लिए हमेशा $k^2 - 4$ का रूट उपयोग करें।"
       ],
       "questions": [
-        {
-          "questionText": "If x + 1/x = 18 then x² + 1/x² = ?",
-          "options": [
-            "34",
-            "322",
-            "727",
-            "330"
-          ],
-          "correctAnswer": "322"
-        },
-        {
-          "questionText": "If p⁴⁰ + 1/p⁴⁰ = 15 then p⁸⁰ + 1/p⁸⁰ = ?",
-          "options": [
-            "250",
-            "526",
-            "223",
-            "322"
-          ],
-          "correctAnswer": "223"
-        },
-        {
-          "questionText": "If y⁰.²⁵ + 1/y⁰.²⁵ = 23 then y⁰.⁵ + 1/y⁰.⁵ = ?",
-          "options": [
-            "223",
-            "34",
-            "98",
-            "527"
-          ],
-          "correctAnswer": "527"
-        },
-        {
-          "questionText": "If √x + 1/√x = 27 then x + 1/x = ?",
-          "options": [
-            "527",
-            "727",
-            "655",
-            "322"
-          ],
-          "correctAnswer": "727"
-        }
-      ]
-    },
-    {
-      "title": "TYPE - 2: x - 1/x = k, find x² + 1/x²",
-      "slides": [
-        "• If x - 1/x = k, then x² + 1/x² = k² + 2"
-      ],
-      "questions": [
-        {
-          "questionText": "If x - 1/x = 31 then x² + 1/x² = ?",
-          "options": [
-            "123",
-            "963",
-            "54",
-            "321"
-          ],
-          "correctAnswer": "963"
-        },
-        {
-          "questionText": "If x - 1/x = √2 then x⁴ + 1/x⁴ = ?",
-          "options": [
-            "14",
-            "56",
-            "123",
-            "627"
-          ],
-          "correctAnswer": "14"
-        },
-        {
-          "questionText": "If x²⁵ - 1/x²⁵ = -1 then x²⁰⁰ + 1/x²⁰⁰ = ?",
-          "options": [
-            "555",
-            "56",
-            "47",
-            "527"
-          ],
-          "correctAnswer": "47"
-        },
-        {
-          "questionText": "If x⁸ - 1/x⁸ = √3 then x⁶⁴ + 1/x⁶⁴ = ?",
-          "options": [
-            "14",
-            "56",
-            "123",
-            "527"
-          ],
-          "correctAnswer": "527"
-        }
-      ]
-    },
-    {
-      "title": "TYPE - 3: x² + 1/x² = m, find x + 1/x",
-      "slides": [
-        "• If x² + 1/x² = m, then x + 1/x = √(m + 2)"
-      ],
-      "questions": [
-        {
-          "questionText": "If x² + 1/x² = 119 then x + 1/x = ?",
-          "options": [
-            "4",
-            "56",
-            "11",
-            "88"
-          ],
-          "correctAnswer": "11"
-        },
-        {
-          "questionText": "If x¹⁰⁰ + 1/x¹⁰⁰ = 47 then x²⁵ + 1/x²⁵ = ?",
-          "options": [
-            "3",
-            "5",
-            "11",
-            "23"
-          ],
-          "correctAnswer": "3"
-        },
-        {
-          "questionText": "If x²⁵ + 1/x²⁵ = 194 then x⁶.²⁵ + 1/x⁶.²⁵ = ?",
-          "options": [
-            "9",
-            "6",
-            "23",
-            "4"
-          ],
-          "correctAnswer": "4"
-        },
-        {
-          "questionText": "If x¹/² + 1/x¹/² = 527 then x¹/¹⁶ + 1/x¹/¹⁶ = ?",
-          "options": [
-            "4",
-            "√7",
-            "11",
-            "√23"
-          ],
-          "correctAnswer": "√7"
-        }
-      ]
-    },
-    {
-      "title": "TYPE - 4: x² + 1/x² = m, find x - 1/x",
-      "slides": [
-        "• If x² + 1/x² = m, then x - 1/x = √(m - 2)"
-      ],
-      "questions": [
-        {
-          "questionText": "If x⁴ + 1/x⁴ = 171 then x² - 1/x² = ?",
-          "options": [
-            "13",
-            "56",
-            "21",
-            "43"
-          ],
-          "correctAnswer": "13"
-        },
-        {
-          "questionText": "If x⁴ + 1/x⁴ = 322 then x - 1/x = ?",
-          "options": [
-            "7",
-            "56",
-            "4",
-            "43"
-          ],
-          "correctAnswer": "4"
-        },
-        {
-          "questionText": "If x² + 1/x² = 727 then √x - 1/√x = ?",
-          "options": [
-            "13",
-            "25",
-            "2",
-            "5"
-          ],
-          "correctAnswer": "5"
-        },
-        {
-          "questionText": "If x⁸⁰ + 1/x⁸⁰ = 1154 then x¹⁰ - 1/x¹⁰ = ?",
-          "options": [
-            "1",
-            "2",
-            "26",
-            "33"
-          ],
-          "correctAnswer": "2"
-        }
-      ]
-    },
-    {
-      "title": "TYPE - 5: x + 1/x = k, find x - 1/x",
-      "slides": [
-        "• If x + 1/x = k, then x - 1/x = ±√(k² - 4)"
-      ],
-      "questions": [
-        {
-          "questionText": "If x + 1/x = √53 then x - 1/x = ?",
-          "options": [
-            "7",
-            "6",
-            "5",
-            "8"
-          ],
-          "correctAnswer": "7"
-        },
-        {
-          "questionText": "If x¹⁰ + 1/x¹⁰ = 10 then x¹⁰ - 1/x¹⁰ = ?",
-          "options": [
-            "3√3",
-            "4",
-            "4√6",
-            "5"
-          ],
-          "correctAnswer": "4√6"
-        },
-        {
-          "questionText": "If x⁷ + 1/x⁷ = 4 then x¹⁴ - 1/x¹⁴ = ?",
-          "options": [
-            "3√3",
-            "4",
-            "8√3",
-            "6"
-          ],
-          "correctAnswer": "8√3"
-        },
-        {
-          "questionText": "If √x + 1/√x = √7 then x² - 1/x² = ?",
-          "options": [
-            "3",
-            "4√21",
-            "4√6",
-            "5√21"
-          ],
-          "correctAnswer": "5√21"
-        }
+        { "questionText": "यदि $x + \\frac{1}{x} = 18$ है, तो $x^2 + \\frac{1}{x^2}$ का मान क्या होगा?", "options": ["34", "322", "727", "330"], "correctAnswer": "322" },
+        { "questionText": "यदि $p^{40} + \\frac{1}{p^{40}} = 15$ है, तो $p^{80} + \\frac{1}{p^{80}}$ का मान क्या होगा?", "options": ["250", "526", "223", "322"], "correctAnswer": "223" },
+        { "questionText": "यदि $y^{0.25} + \\frac{1}{y^{0.25}} = 23$ है, तो $y^{0.5} + \\frac{1}{y^{0.5}}$ का मान क्या होगा?", "options": ["223", "34", "98", "527"], "correctAnswer": "527" },
+        { "questionText": "यदि $\\sqrt{x} + \\frac{1}{\\sqrt{x}} = 27$ है, तो $x + \\frac{1}{x}$ का मान क्या होगा?", "options": ["527", "727", "655", "322"], "correctAnswer": "727" },
+        { "questionText": "यदि $x - \\frac{1}{x} = 31$ है, तो $x^2 + \\frac{1}{x^2}$ का मान क्या होगा?", "options": ["123", "963", "54", "321"], "correctAnswer": "963" },
+        { "questionText": "यदि $x - \\frac{1}{x} = \\sqrt{2}$ है, तो $x^4 + \\frac{1}{x^4}$ का मान क्या होगा?", "options": ["14", "56", "123", "627"], "correctAnswer": "14" },
+        { "questionText": "यदि $x^{25} - \\frac{1}{x^{25}} = -1$ है, तो $x^{200} + \\frac{1}{x^{200}}$ का मान क्या होगा?", "options": ["555", "56", "47", "527"], "correctAnswer": "47" },
+        { "questionText": "यदि $x^8 - \\frac{1}{x^8} = \\sqrt{3}$ है, तो $x^{64} + \\frac{1}{x^{64}}$ का मान क्या होगा?", "options": ["14", "56", "123", "527"], "correctAnswer": "527" },
+        { "questionText": "यदि $x^2 + \\frac{1}{x^2} = 119$ है, तो $x + \\frac{1}{x}$ का मान क्या होगा?", "options": ["4", "56", "11", "88"], "correctAnswer": "11" },
+        { "questionText": "यदि $x^{100} + \\frac{1}{x^{100}} = 47$ है, तो $x^{25} + \\frac{1}{x^{25}}$ का मान क्या होगा?", "options": ["3", "5", "11", "23"], "correctAnswer": "3" },
+        { "questionText": "यदि $x^{25} + \\frac{1}{x^{25}} = 194$ है, तो $x^{6.25} + \\frac{1}{x^{6.25}}$ का मान क्या होगा?", "options": ["9", "6", "23", "4"], "correctAnswer": "4" },
+        { "questionText": "यदि $x^{1/2} + \\frac{1}{x^{1/2}} = 527$ है, तो $x^{1/16} + \\frac{1}{x^{1/16}}$ का मान क्या होगा?", "options": ["4", "$\\sqrt{7}$", "11", "$\\sqrt{23}$"], "correctAnswer": "$\\sqrt{7}$" },
+        { "questionText": "यदि $x^4 + \\frac{1}{x^4} = 171$ है, तो $x^2 - \\frac{1}{x^2}$ का मान क्या होगा?", "options": ["13", "56", "21", "43"], "correctAnswer": "13" },
+        { "questionText": "यदि $x^4 + \\frac{1}{x^4} = 322$ है, तो $x - \\frac{1}{x}$ का मान क्या होगा?", "options": ["7", "56", "4", "43"], "correctAnswer": "4" },
+        { "questionText": "यदि $x^2 + \\frac{1}{x^2} = 727$ है, तो $\\sqrt{x} - \\frac{1}{\\sqrt{x}}$ का मान क्या होगा?", "options": ["13", "25", "2", "5"], "correctAnswer": "5" },
+        { "questionText": "यदि $x^{80} + \\frac{1}{x^{80}} = 1154$ है, तो $x^{10} - \\frac{1}{x^{10}}$ का मान क्या होगा?", "options": ["1", "2", "26", "33"], "correctAnswer": "2" },
+        { "questionText": "यदि $x + \\frac{1}{x} = \\sqrt{53}$ है, तो $x - \\frac{1}{x}$ का मान क्या होगा?", "options": ["7", "6", "5", "8"], "correctAnswer": "7" },
+        { "questionText": "यदि $x^{10} + \\frac{1}{x^{10}} = 10$ है, तो $x^{10} - \\frac{1}{x^{10}}$ का मान क्या होगा?", "options": ["3$\\sqrt{3}$", "4", "4$\\sqrt{6}$", "5"], "correctAnswer": "4$\\sqrt{6}$" },
+        { "questionText": "यदि $x^7 + \\frac{1}{x^7} = 4$ है, तो $x^{14} - \\frac{1}{x^{14}}$ का मान क्या होगा?", "options": ["3$\\sqrt{3}$", "4", "8$\\sqrt{3}$", "6"], "correctAnswer": "8$\\sqrt{3}$" },
+        { "questionText": "यदि $\\sqrt{x} + \\frac{1}{\\sqrt{x}} = \\sqrt{7}$ है, तो $x^2 - \\frac{1}{x^2}$ का मान क्या होगा?", "options": ["3", "4$\\sqrt{21}$", "4$\\sqrt{6}$", "5$\\sqrt{21}$"], "correctAnswer": "5$\\sqrt{21}$" }
       ]
     }
   ]
